@@ -1,0 +1,1 @@
+To jest test. To jest wersja 1. pliku.
