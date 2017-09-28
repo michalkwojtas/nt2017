@@ -75,6 +75,7 @@ article {
   border-style: none none dashed;
   border-bottom-width: 2px;
   border-bottom-color: #bbcdee;
+  padding-top: 4em;
 }
 
 audio,
@@ -97,6 +98,7 @@ template {
 
 a {
   background-color: transparent;
+  text-decoration: none;
 }
 
 a:active,
@@ -362,7 +364,8 @@ th {
  padding-left: 5em;
 }
 
-#masthead div {
+#masthead div,
+.site-footer {
   padding-left: 5em;
   padding-right: 5em;
 }
@@ -400,7 +403,6 @@ h2.entry-title {
 }
 
 h2.entry-title a {
-    text-decoration: none;
     color: #000;
 }
 
@@ -464,10 +466,6 @@ blockquote:before, blockquote:after, q:before, q:after {
   font-family: Georgia, Times, 'Times New Roman', serif;
   color: #36c;
   font-size: 1.8em;
-}
-
-.site-title a {
-  text-decoration: none;
 }
 
 .site-description {
@@ -604,7 +602,8 @@ hr {
   margin-bottom: 1.5em;
 }
 
-.menu {
+.menu,
+.menu-menu-1-container {
   background-color: #bbcdee;
 }
 
@@ -617,7 +616,10 @@ hr {
   background-color: #36c;
   color: #fff;
   text-transform: uppercase;
-  text-decoration: none;
+}
+
+a.more-link:hover {
+color:#fff;
 }
 
 .nav-menu {
@@ -647,13 +649,11 @@ hr {
 
 .posted-on a {
   color: #434343;
-  text-decoration: none;
 }
 
 section {
   margin-bottom: 0px;
-  padding-bottom: 40px;
-  padding-left: 20px;
+  padding-bottom: 4em;
   border-style: none none dashed;
   border-bottom-width: 2px;
   border-bottom-color: #bbcdee;
@@ -747,7 +747,6 @@ table {
 }
 .main-navigation a {
   display: block;
-  text-decoration: none;
 }
 
 /* Small menu. */
@@ -798,10 +797,10 @@ a {
   color: royalblue;
 }
 a:visited {
-  color: purple;
+  color: inherit;
 }
 a:hover, a:focus, a:active {
-  color: midnightblue;
+  color: #fff;
 }
 a:focus {
   outline: thin dotted;
@@ -821,11 +820,8 @@ section ul a {
   color: #434343;
 }
 
-/*a:visited {
-  color: #f00;
-}*/
 a:hover, a:focus, a:active {
-  color: midnightblue;
+  color: #f00;
 }
 a:focus {
   outline: thin dotted;
@@ -909,7 +905,8 @@ body {
   display: none;
 }
 
-.byline, .cat-links {
+.byline,
+.cat-links {
   display: inline-block;
   padding-right: 5px;
   padding-left: 5px;
@@ -919,9 +916,15 @@ body {
   text-transform: uppercase;
 }
 
-.byline a, .cat-links a {
+.cat-links ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.byline a,
+.cat-links a {
   color: #fff;
-  text-decoration: none;
 }
 
 .single .byline,
@@ -930,9 +933,16 @@ body {
 }
 
 .page-content,
-.entry-content,
 .entry-summary {
   margin: 1.5em 0 0;
+}
+
+.entry-content {
+  margin: 0 2em 2em 0;
+}
+
+.entry-content p {
+  margin: 0 0 2em 0;
 }
 
 /*--------------------------------------------------------------
@@ -958,21 +968,40 @@ body {
 # Widgets
 --------------------------------------------------------------*/
 
+.widget {
+  margin: 4em 0;
+  padding-left: 2em;
+  /* Make sure select elements fit in widgets. */
+}
+.widget select {
+  max-width: 100%;
+}
+
 section.widget_search {
 /*tidy up later*/
   position: absolute;
   top: 118px;
   right: 0px;
   padding-right: 5em;
+  margin-top: 0;
   border: none;
 }
 
-.widget {
-  margin: 0 0 1.5em;
-  /* Make sure select elements fit in widgets. */
+.widget ul li a:hover {
+  text-decoration: underline;
 }
-.widget select {
-  max-width: 100%;
+
+/*to be tidied up later*/
+.custom-html-widget {
+  padding-bottom: 20em;
+}
+
+.club-crest {
+  width: 4em;
+  height: 4em;
+  float: left;
+  border: solid 2px #000000;
+  margin: 0.1em;
 }
 
 /*--------------------------------------------------------------

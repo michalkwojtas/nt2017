@@ -1,3 +1,3 @@
 		<div class="entry-meta">
-			<?php niecelnetrafienie_2017_posted_on(); ?>
+			<span class="cat-links"><?php the_category()?></span><span class="posted-on"><?php the_time("d.m.Y") ?></span>
 		</div><!-- .entry-meta -->

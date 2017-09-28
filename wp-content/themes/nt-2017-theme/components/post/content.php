@@ -19,6 +19,7 @@
 	<?php endif; ?>
 
 	<header class="entry-header">
+		<?php get_template_part( 'components/post/content', 'meta' ); ?>
 		<?php
 			if ( is_single() ) {
 				the_title( '<h1 class="entry-title">', '</h1>' );
@@ -27,7 +28,6 @@
 			}
 
 		if ( 'post' === get_post_type() ) : ?>
-		<?php get_template_part( 'components/post/content', 'meta' ); ?>
 		<?php
 		endif; ?>
 	</header>
@@ -35,7 +35,7 @@
 		<?php
 			the_content( sprintf(
 				/* translators: %s: Name of current post. */
-				wp_kses( __( 'Continue reading %s <span class="meta-nav">&rarr;</span>', 'niecelnetrafienie-2017' ), array( 'span' => array( 'class' => array() ) ) ),
+				wp_kses( __( '+ Czytaj dalej', 'niecelnetrafienie-2017' ), array( 'span' => array( 'class' => array() ) ) ),
 				the_title( '<span class="screen-reader-text">"', '"</span>', false )
 			) );
 
@@ -45,5 +45,5 @@
 			) );
 		?>
 	</div>
-	<?php get_template_part( 'components/post/content', 'footer' ); ?>
-</article><!-- #post-## -->
+</article>
+<!-- #post-## -->
