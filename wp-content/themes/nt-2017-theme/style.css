@@ -71,6 +71,12 @@ summary {
   display: block;
 }
 
+article {
+  border-style: none none dashed;
+  border-bottom-width: 2px;
+  border-bottom-color: #bbcdee;
+}
+
 audio,
 canvas,
 progress,
@@ -350,6 +356,23 @@ th {
   clear: both;
 }
 
+.entry-content,
+.entry-footer,
+.entry-header {
+ padding-left: 5em;
+}
+
+#masthead div {
+  padding-left: 5em;
+  padding-right: 5em;
+}
+
+.widget ul,
+.widget-title {
+ padding-right: 5em;
+}
+
+
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
@@ -358,15 +381,27 @@ button,
 input,
 select,
 textarea {
-  color: #404040;
-  font-family: sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+  color: #434343;
   font-size: 16px;
   font-size: 1rem;
   line-height: 1.5;
+  font-style: italic;
 }
 
 h1, h2, h3, h4, h5, h6 {
   clear: both;
+}
+
+h2.entry-title {
+    margin-top: 0px;
+    padding-top: 10px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+h2.entry-title a {
+    text-decoration: none;
+    color: #000;
 }
 
 p {
@@ -422,6 +457,29 @@ blockquote, q {
 }
 blockquote:before, blockquote:after, q:before, q:after {
   content: "";
+}
+
+.site-title {
+  display: inline-block;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  color: #36c;
+  font-size: 1.8em;
+}
+
+.site-title a {
+  text-decoration: none;
+}
+
+.site-description {
+  display: inline-block;
+  padding-left: 10px;
+  font-size: 1.2em;
+  font-weight: normal;
+}
+
+.widget-title {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  color: #36c;
 }
 
 /*--------------------------------------------------------------
@@ -488,6 +546,19 @@ input[type="color"] {
   padding: 3px;
 }
 
+input.search-field {
+  display: inline-block;
+  width: 60%;
+  height: 30px;
+  margin-bottom: 0px;
+  margin-right: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  float: left;
+  border: 1px #434343 solid;
+  border-radius: 0px;
+}
+
 textarea {
   padding-left: 3px;
   width: 100%;
@@ -500,44 +571,98 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-  border: 1px solid;
-  border-color: #ccc #ccc #bbb;
-  border-radius: 3px;
-  background: #e6e6e6;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
-  color: rgba(0, 0, 0, 0.8);
-  font-size: 12px;
-  font-size: 0.75rem;
+  border: none;
+  border-color: #434343;
+  border-radius: 0px;
+  background: #434343;
+  color: #fff;
+  font-size: 1em;
   line-height: 1;
   padding: .6em 1em .4em;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
 }
 button:hover,
 input[type="button"]:hover,
 input[type="reset"]:hover,
-input[type="submit"]:hover {
-  border-color: #ccc #bbb #aaa;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), inset 0 15px 17px rgba(255, 255, 255, 0.8), inset 0 -5px 12px rgba(0, 0, 0, 0.02);
-}
+input[type="submit"]:hover,
 button:active, button:focus,
 input[type="button"]:active,
 input[type="button"]:focus,
 input[type="reset"]:active,
 input[type="reset"]:focus,
 input[type="submit"]:active,
-input[type="submit"]:focus {
-  border-color: #aaa #bbb #bbb;
-  box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.5), inset 0 2px 5px rgba(0, 0, 0, 0.15);
+input[type="submit"]:focus,
 }
 
 /*--------------------------------------------------------------
 # Formattings
 --------------------------------------------------------------*/
+
 hr {
   background-color: #ccc;
   border: 0;
   height: 1px;
   margin-bottom: 1.5em;
+}
+
+.menu {
+  background-color: #bbcdee;
+}
+
+.more-link {
+  display: block;
+  float: right;
+  margin-right: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
+  background-color: #36c;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.nav-menu {
+  display: inline-block;
+  height: 40px;
+  margin-bottom: 0px;
+  padding-left: 10px;
+  background-color: #bbcdee;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.nav-menu li a {
+  display: inline-block;
+  padding-right: 10px;
+  color: #36c;
+  background-color: #bbcdee;
+  text-transform: uppercase;
+}
+
+.posted-on {
+  display: inline-block;
+  margin-left: 5px;
+  font-size: 1em;
+  color: #434343;
+}
+
+.posted-on a {
+  color: #434343;
+  text-decoration: none;
+}
+
+section {
+  margin-bottom: 0px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  border-style: none none dashed;
+  border-bottom-width: 2px;
+  border-bottom-color: #bbcdee;
+}
+
+section ul {
+  margin: 0px;
+  padding-left: 0px;
+  list-style-type: none;
 }
 
 /*--------------------------------------------------------------
@@ -585,6 +710,8 @@ table {
   display: block;
   float: left;
   width: 100%;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 .main-navigation ul {
   display: none;
@@ -687,11 +814,16 @@ a:hover, a:active {
 # Links
 --------------------------------------------------------------*/
 a {
-  color: royalblue;
+  color: #36c;
 }
-a:visited {
-  color: purple;
+
+section ul a {
+  color: #434343;
 }
+
+/*a:visited {
+  color: #f00;
+}*/
 a:hover, a:focus, a:active {
   color: midnightblue;
 }
@@ -730,6 +862,9 @@ body {
 
     .site-main {
       margin: 0 25% 0 0;
+      border-style: none dashed none none;
+      border-right-width: 2px;
+      border-right-color: #bbcdee;
     }
 
     .site-content .widget-area {
@@ -741,6 +876,8 @@ body {
     .site-footer {
       clear: both;
       width: 100%;
+      background-color: #bbcdee;
+      color: #36c;
     }
 }
 
@@ -768,9 +905,23 @@ body {
   margin: 0 0 1.5em;
 }
 
-.byline,
 .updated:not(.published) {
   display: none;
+}
+
+.byline, .cat-links {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+  background-color: #36c;
+  color: #fff;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+.byline a, .cat-links a {
+  color: #fff;
+  text-decoration: none;
 }
 
 .single .byline,
@@ -806,6 +957,16 @@ body {
 /*--------------------------------------------------------------
 # Widgets
 --------------------------------------------------------------*/
+
+section.widget_search {
+/*tidy up later*/
+  position: absolute;
+  top: 118px;
+  right: 0px;
+  padding-right: 5em;
+  border: none;
+}
+
 .widget {
   margin: 0 0 1.5em;
   /* Make sure select elements fit in widgets. */
