@@ -1,4 +1,4 @@
-=== Niecelnetrafienie 2017 ===
+=== Niecelnetrafienie 2017 Blank ===
 
 Contributors:
 Tags:
@@ -23,7 +23,7 @@ Description
 
 = Does this theme support any plugins? =
 
-Niecelnetrafienie 2017 includes support for Jetpack's Infinite Scroll as well as other features.
+Niecelnetrafienie 2017 Blank includes support for Jetpack's Infinite Scroll as well as other features.
 
 == Changelog ==
 
