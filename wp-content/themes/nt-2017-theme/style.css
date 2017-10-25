@@ -544,17 +544,21 @@ input[type="color"] {
   padding: 3px;
 }
 
-input.search-field {
-  display: inline-block;
-  width: 60%;
-  height: 30px;
-  margin-bottom: 0px;
-  margin-right: 10px;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  float: left;
-  border: 1px #434343 solid;
-  border-radius: 0px;
+input.searchinput {
+  height: 32px;
+  margin: 0;
+  padding-left: 5px;
+  font-style: normal;
+  color: #36c;
+  border: solid 1px #36c;
+}
+
+input.searchsubmit {
+ height: 32px;
+ margin: 0;
+ font-style: normal;
+ color: #36c;
+ border: solid 1px #36c;
 }
 
 textarea {
@@ -569,14 +573,6 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-  border: none;
-  border-color: #434343;
-  border-radius: 0px;
-  background: #434343;
-  color: #fff;
-  font-size: 1em;
-  line-height: 1;
-  padding: .6em 1em .4em;
 }
 button:hover,
 input[type="button"]:hover,
@@ -852,12 +848,12 @@ body {
 @media screen and (min-width: 37.5em) {
     .content-area {
       float: left;
-      margin: 0 -25% 0 0;
+      margin: 0 -28% 0 0;
       width: 100%;
     }
 
     .site-main {
-      margin: 0 25% 0 0;
+      margin: 0 28% 0 0;
       border-style: none dashed none none;
       border-right-width: 2px;
       border-right-color: #bbcdee;
@@ -866,7 +862,7 @@ body {
     .site-content .widget-area {
       float: right;
       overflow: hidden;
-      width: 25%;
+      width: 28%;
     }
 
     .site-footer {
@@ -981,7 +977,7 @@ section.widget_search {
 /*tidy up later*/
   position: absolute;
   top: 118px;
-  right: 0px;
+  right: 42px;
   padding-right: 5em;
   margin-top: 0;
   border: none;
