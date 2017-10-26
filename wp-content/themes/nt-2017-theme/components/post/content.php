@@ -17,8 +17,15 @@
 			</a>
 		</div>
 	<?php endif; ?>
-
 	<header class="entry-header">
+		<div class="post-crests">
+		 <div class="club-crest">
+			<a href="/tag/real-madrid"><img src="/nt2017/wp-content/themes/nt-2017-theme/assets/images/real-madrid-150x150.png"></a>
+		 </div>
+		 <div class="club-crest">
+			<a href="/tag/barcelona"><img src="/nt2017/wp-content/themes/nt-2017-theme/assets/images/barcelona-150x150.png"></a>
+		 </div>
+	  </div>
 		<?php get_template_part( 'components/post/content', 'meta' ); ?>
 		<?php
 			if ( is_single() ) {

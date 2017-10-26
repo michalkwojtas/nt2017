@@ -364,6 +364,11 @@ th {
  padding-left: 5em;
 }
 
+.post-crests {
+ float:left;
+ padding-right: 0.5em;
+}
+
 #masthead div,
 div.tag-cloud,
 div.site-info {
@@ -397,10 +402,14 @@ h1, h2, h3, h4, h5, h6 {
   clear: both;
 }
 
+.entry-meta {
+  padding-top: 0.2em;
+}
+
 h2.entry-title {
-    margin-top: 0px;
-    padding-top: 10px;
-    font-family: Georgia, Times, 'Times New Roman', serif;
+  clear: none;
+  margin-top: 0.1em;
+  font-family: Georgia, Times, 'Times New Roman', serif;
 }
 
 h2.entry-title a {
