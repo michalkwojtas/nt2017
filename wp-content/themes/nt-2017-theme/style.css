@@ -406,12 +406,14 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 0.2em;
 }
 
+h1.entry-title,
 h2.entry-title {
   clear: none;
   margin-top: 0.1em;
   font-family: Georgia, Times, 'Times New Roman', serif;
 }
 
+h1.entry-title a,
 h2.entry-title a {
     color: #000;
 }
@@ -487,6 +489,19 @@ blockquote:before, blockquote:after, q:before, q:after {
 
 .widget-title {
   font-family: Georgia, Times, 'Times New Roman', serif;
+  color: #36c;
+}
+
+.page-header {
+  margin: 0px;
+  margin-bottom: -48px;
+  padding-top: 4em;
+  padding-left: 5em;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+h2.page-title {
+  margin: 0px;
   color: #36c;
 }
 
