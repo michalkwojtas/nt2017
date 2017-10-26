@@ -365,7 +365,8 @@ th {
 }
 
 #masthead div,
-.site-footer {
+div.tag-cloud,
+div.site-info {
   padding-left: 5em;
   padding-right: 5em;
 }
@@ -614,7 +615,8 @@ hr {
   text-transform: uppercase;
 }
 
-a.more-link:hover {
+a.more-link:hover,
+a.more-link:visited {
 color:#fff;
 }
 
@@ -868,8 +870,6 @@ body {
     .site-footer {
       clear: both;
       width: 100%;
-      background-color: #bbcdee;
-      color: #36c;
     }
 }
 
@@ -976,7 +976,7 @@ body {
 section.widget_search {
 /*tidy up later*/
   position: absolute;
-  top: 118px;
+  top: 86px;
   right: 42px;
   padding-right: 5em;
   margin-top: 0;
@@ -987,17 +987,36 @@ section.widget_search {
   text-decoration: underline;
 }
 
-/*to be tidied up later*/
-.custom-html-widget {
-  padding-bottom: 20em;
+.tag-cloud {
+  padding: 2em 0 2em 0;
+  background-color: #bbcdee;
+  color: #36c;
 }
+
+.site-info {
+ text-align: center;
+ padding: 1em 0 1em 0;
+ background-color: #fff;
+ color: #434343;
+}
+
+/*to be tidied up later*/
 
 .club-crest {
   width: 4em;
   height: 4em;
+  display: block;
   float: left;
   border: solid 2px #000000;
   margin: 0.1em;
+}
+
+.all-crests {
+  display: block;
+  height: 52em;
+}
+
+.custom-html-widget {
 }
 
 /*--------------------------------------------------------------
