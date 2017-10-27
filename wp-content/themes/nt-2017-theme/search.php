@@ -16,7 +16,7 @@ get_header(); ?>
 		if ( have_posts() ) : ?>
 
 			<header class="page-header">
-				<h1 class="page-title"><?php printf( esc_html__( 'Wyniki wyszukiwania dla frazy: %s', 'niecelnetrafienie-2017' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
+				<h2 class="page-title"><?php printf( esc_html__( 'Wyniki wyszukiwania dla frazy: %s', 'niecelnetrafienie-2017' ), '<span>' . get_search_query() . '</span>' ); ?></h2>
 			</header>
 			<?php
 			/* Start the Loop */
