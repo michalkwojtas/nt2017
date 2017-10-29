@@ -628,15 +628,25 @@ hr {
   background-color: #bbcdee;
 }
 
-.more-link {
+.more-link,
+.nav-links a {
   display: block;
-  float: right;
+  margin-top: 15px;
   margin-right: 10px;
   padding-right: 5px;
   padding-left: 5px;
   background-color: #36c;
   color: #fff;
   text-transform: uppercase;
+}
+
+.more-link {
+  float: right;
+}
+
+.nav-links a {
+  display: inline-block;
+  background-color: #000;
 }
 
 a.more-link:hover,
@@ -690,6 +700,11 @@ section ul {
 section#primary.content-area {
   border-bottom: none;
   padding-bottom: 0;
+}
+
+.nav-links {
+  padding-left: 5em;
+  margin-right: 2em;
 }
 
 /*--------------------------------------------------------------
