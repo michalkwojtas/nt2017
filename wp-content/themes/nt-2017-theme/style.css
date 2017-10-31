@@ -989,6 +989,105 @@ body {
   padding: 0 0 2em 5em;
 }
 
+/*-------------------------------------------------------------
+### Tactics view
+
+<div class="tactics-wrapper">
+  <div class="team-wrapper">
+    <h1 class="tactics-team-name">Real Madryt: <a href="#" class="formation">4-3-3</a></h1>
+    <div><a href="#">Keylor Navas</a></div>
+    <div><a href="#">Daniel Carvajal</a><a href="#">Nacho</a><a href="#">Sergio Ramos</a><a href="#">Marcelo</a></div>
+    <div><a href="#">Toni Kroos</a><a href="#">Casemiro</a><a href="#">Luca Modrić</a></div>
+    <div><a href="#">Gareth Bale</a><a href="#">Karim Benzema</a><a href="#">Cristiano Ronaldo</a></div>
+  </div>
+  <div class="team-wrapper team2">
+    <div><a href="#">Paco Alcacer</a><a href="#">Luis Suarez</a></div>
+    <div><a href="#">Lionel Messi</a></div>
+    <div><a href="#">Andres Iniesta</a><a href="#">Sergi Busquets</a><a href="#">Ivan Rakitić</a></div>
+    <div><a href="#">Jordi Alba</a><a href="#">Samuel Umtiti</a><a href="#">Gerard Pique</a><a href="#">Sergi Roberto</a></div>
+    <div><a href="#">Marc-Andre Ter Stegen</a></div>
+    <h1 class="tactics-team-name">FC Barcelona: <a href="#" class="formation">4-3-1-2</a></h1>
+  </div>
+  <div class="tactics-summary"><p class="tactics-summary-text">Poziom meczu: <span class="match-rating">6/6</span> Najlepszy na bosku: <strong><span class="best-player">Lionel Messi</span></strong></p></div>
+</div>
+
+--------------------------------------------------------------*/
+
+.tactics-wrapper {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.team-wrapper {
+  padding: 1em 0;
+  background-color: #bbcdee;
+}
+
+.team-wrapper.team2 {
+  border-top: 2px dashed #fff;
+}
+
+div.team-wrapper div {
+  margin-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+div.team-wrapper div a {
+  left: auto;
+  right: auto;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding: 3px 5px;
+  background-color: #fff;
+  color: #36c;
+  border-radius: 5px;
+}
+
+div.team-wrapper.team2 a {
+  color: #000;
+}
+
+h1.tactics-team-name {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+
+div.team-wrapper.team2 h1.tactics-team-name {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  border-top: 2px none #fff;
+}
+
+h1.tactics-team-name a.formation {
+  color: #fff;
+}
+
+.tactics-summary {
+  border: 2px solid #bbcdee;
+}
+
+p.tactics-summary-text {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  color: #bbcdee;
+  font-size: 18px;
+  text-align: center;
+}
+
+.best-player,
+.match-rating {
+  font-weight: 700;
+}
+
 /*--------------------------------------------------------------
 ## Pages
 --------------------------------------------------------------*/
