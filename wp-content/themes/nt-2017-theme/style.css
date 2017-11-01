@@ -376,12 +376,6 @@ div.site-info {
   padding-right: 5em;
 }
 
-.widget ul,
-.widget-title {
- padding-right: 5em;
-}
-
-
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
@@ -571,6 +565,7 @@ input[type="color"] {
 
 input.searchinput {
   height: 32px;
+  width: 16em;
   margin: 0;
   padding-left: 5px;
   font-style: normal;
@@ -685,6 +680,7 @@ color:#fff;
 
 section {
   margin-bottom: 0px;
+  padding-right: 5em;
   padding-bottom: 4em;
   border-style: none none dashed;
   border-bottom-width: 2px;
@@ -894,12 +890,12 @@ body {
 @media screen and (min-width: 37.5em) {
     .content-area {
       float: left;
-      margin: 0 -28% 0 0;
+      margin: 0 -30% 0 0;
       width: 100%;
     }
 
     .site-main {
-      margin: 0 28% 0 0;
+      margin: 0 30% 0 0;
       border-style: none dashed none none;
       border-right-width: 2px;
       border-right-color: #bbcdee;
@@ -908,7 +904,7 @@ body {
     .site-content .widget-area {
       float: right;
       overflow: hidden;
-      width: 28%;
+      width: 30%;
     }
 
     .site-footer {
@@ -1124,9 +1120,9 @@ section.widget_search {
 /*tidy up later*/
   position: absolute;
   top: 86px;
-  right: 42px;
-  padding-right: 5em;
+  right: 5em;
   margin-top: 0;
+  padding: 0;
   border: none;
 }
 
