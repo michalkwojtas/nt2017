@@ -1,8 +1,8 @@
 <div class="tag-cloud">
 	<?php wp_tag_cloud( array(
-   'smallest' => 12, // size of least used tag
-   'largest'  => 40, // size of most used tag
-   'unit'     => 'px', // unit for sizing the tags
+   'smallest' => 0.7, // size of least used tag
+   'largest'  => 2.1, // size of most used tag
+   'unit'     => 'em', // unit for sizing the tags
    'number'   => 120, // displays at most 45 tags
    'orderby'  => 'name', // order tags alphabetically
    'order'    => 'ASC', // order tags by ascending order
