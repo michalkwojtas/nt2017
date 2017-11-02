@@ -38,6 +38,7 @@
 		<?php
 		endif; ?>
 	</header>
+	<a href="<?php echo get_permalink(); ?>">
 	<div class="entry-content">
 		<?php
 			the_content( sprintf(
@@ -52,5 +53,6 @@
 			) );
 		?>
 	</div>
+	</a>
 </article>
 <!-- #post-## -->
