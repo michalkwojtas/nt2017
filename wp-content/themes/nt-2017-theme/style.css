@@ -1154,6 +1154,10 @@ section.widget_search {
  color: #434343;
 }
 
+.site-info a {
+ color: #36c;  
+}
+
 /*to be tidied up later*/
 
 .club-crest {
