@@ -630,24 +630,20 @@ hr {
   margin-right: 10px;
   padding-right: 5px;
   padding-left: 5px;
-  background-color: #36c;
+  background-color: #000;
   color: #fff;
   text-transform: uppercase;
 }
 
-.more-link {
+a.more-link {
   float: right;
 }
 
 .nav-links a {
   display: inline-block;
-  background-color: #000;
+  background-color: #36c;
 }
 
-a.more-link:hover,
-a.more-link:visited {
-color:#fff;
-}
 
 .nav-menu {
   display: inline-block;
@@ -701,6 +697,18 @@ section#primary.content-area {
 .nav-links {
   padding-left: 5em;
   margin-right: 2em;
+}
+
+div.nav-previous ::before,
+div.nav-next ::after {
+  content: "◀ ";
+  font-size: 1.3em;
+  line-height: 1em;
+  font-style: normal;
+}
+
+div.nav-next ::after {
+  content: " ▶";
 }
 
 /*--------------------------------------------------------------
@@ -831,39 +839,38 @@ table {
 /*--------------------------------------------------------------
 # Links
 --------------------------------------------------------------*/
+
 a {
-  color: royalblue;
-}
-a:visited {
   color: inherit;
+  margin-left: 0;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
 }
-a:hover, a:focus, a:active {
-  color: #fff;
+
+a.more-link,
+div.nav-next a {
+  margin-right: 0.2em;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
 }
+
+a:hover,
+a:focus,
+a:active {
+  margin-left: 0.2em;
+}
+
+a.more-link:hover,
+a.more-link:focus,
+div.nav-next a:hover,
+div.nav-next a:focus {
+  margin-right: 0em;
+}
+
 a:focus {
   outline: thin dotted;
 }
-a:hover, a:active {
-  outline: 0;
-}
 
-/*--------------------------------------------------------------
-# Links
---------------------------------------------------------------*/
-a {
-  color: #36c;
-}
-
-section ul a {
-  color: #434343;
-}
-
-a:hover, a:focus, a:active {
-  color: #f00;
-}
-a:focus {
-  outline: thin dotted;
-}
 a:hover, a:active {
   outline: 0;
 }
@@ -944,9 +951,6 @@ body {
 .byline,
 .cat-links {
   display: inline-block;
-  padding-right: 5px;
-  padding-left: 5px;
-  background-color: #36c;
   color: #fff;
   font-size: 1em;
   text-transform: uppercase;
@@ -956,6 +960,13 @@ body {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+ul.post-categories li a {
+ display: inline-block;
+ background-color: #36c;
+ padding-right: 5px;
+ padding-left: 5px;
 }
 
 .byline a,
@@ -1126,10 +1137,6 @@ section.widget_search {
   border: none;
 }
 
-.widget ul li a:hover {
-  text-decoration: underline;
-}
-
 .tag-cloud {
   padding: 2em 0 2em 0;
   background-color: #bbcdee;
@@ -1146,6 +1153,7 @@ section.widget_search {
 /*to be tidied up later*/
 
 .club-crest {
+  overflow: hidden;
   width: 4em;
   height: 4em;
   display: block;
