@@ -711,6 +711,80 @@ div.nav-next ::after {
   content: " ▶";
 }
 
+article.category-cytat-tygodnia {
+  background-color: #bbcdee;
+  margin-top: -24px;
+  padding: 2em 3em 2em 0em;
+  border-bottom: dashed 2px #fff;
+  border-left: dashed 2px #fff;
+}
+
+article.category-cytat-tygodnia div.club-crest,
+article.category-cytat-tygodnia div.entry-meta {
+  display: none;
+}
+
+article.category-cytat-tygodnia a {
+  display: inline-block;
+/*  margin-left: 0;
+  -webkit-transition: 0s ease-in-out;
+  transition: 0s ease-in-out;*/
+}
+
+article.category-cytat-tygodnia div.entry-content {
+  margin: 0;
+}
+
+article.category-cytat-tygodnia h2.entry-title {
+  margin-bottom: 0;
+}
+
+article.category-cytat-tygodnia h2.entry-title a {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+  font-size: 0.7em;
+  font-weight: normal;
+  font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #36c;
+}
+
+article.category-cytat-tygodnia p {
+  margin-bottom: 0;
+  padding: 0.5em 0em;
+  font-size: 2em;
+  color: #fff;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+}
+
+article.category-cytat-tygodnia p::before,
+article.category-cytat-tygodnia p::after {
+  content: "“";
+  font-size: 2em;
+  line-height: 0.5em;
+  position: relative;
+  top: 0.4em;
+  padding-right: 0.1em;
+  color: #36c;
+}
+
+article.category-cytat-tygodnia p::after {
+  content: "”";
+  padding-right: 0em;
+  padding-left: 0.1em;
+}
+
+article.category-cytat-tygodnia div.author {
+  float: right;
+  font-size: 1.3em;
+  font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+  font-weight: normal;
+  color: #36c;
+}
+
 /*--------------------------------------------------------------
 # Lists
 --------------------------------------------------------------*/
@@ -1155,7 +1229,7 @@ section.widget_search {
 }
 
 .site-info a {
- color: #36c;  
+ color: #36c;
 }
 
 /*to be tidied up later*/
