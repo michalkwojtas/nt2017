@@ -488,14 +488,14 @@ blockquote:before, blockquote:after, q:before, q:after {
 
 .page-header {
   margin: 0px;
-  margin-bottom: -48px;
   padding-top: 4em;
   padding-left: 5em;
   font-family: Georgia, Times, 'Times New Roman', serif;
 }
 
 h2.page-title {
-  margin: 0px;
+  margin: 0;
+  margin-bottom: 0.7em;
   color: #36c;
 }
 
@@ -711,35 +711,31 @@ div.nav-next ::after {
   content: " ▶";
 }
 
-article.category-cytat-tygodnia {
+article.category-zlote-mysli {
   background-color: #bbcdee;
-  margin-top: -24px;
   padding: 2em 3em 2em 0em;
   border-bottom: dashed 2px #fff;
   border-left: dashed 2px #fff;
 }
 
-article.category-cytat-tygodnia div.club-crest,
-article.category-cytat-tygodnia div.entry-meta {
+article.category-zlote-mysli div.club-crest,
+article.category-zlote-mysli div.entry-meta {
   display: none;
 }
 
-article.category-cytat-tygodnia a {
+article.category-zlote-mysli a {
   display: inline-block;
-/*  margin-left: 0;
-  -webkit-transition: 0s ease-in-out;
-  transition: 0s ease-in-out;*/
 }
 
-article.category-cytat-tygodnia div.entry-content {
+article.category-zlote-mysli div.entry-content {
   margin: 0;
 }
 
-article.category-cytat-tygodnia h2.entry-title {
+article.category-zlote-myslia h2.entry-title {
   margin-bottom: 0;
 }
 
-article.category-cytat-tygodnia h2.entry-title a {
+article.category-zlote-mysli h2.entry-title a {
   display: inline-block;
   padding-right: 5px;
   padding-left: 5px;
@@ -751,7 +747,7 @@ article.category-cytat-tygodnia h2.entry-title a {
   background-color: #36c;
 }
 
-article.category-cytat-tygodnia p {
+article.category-zlote-mysli p {
   margin-bottom: 0;
   padding: 0.5em 0em;
   font-size: 2em;
@@ -760,8 +756,8 @@ article.category-cytat-tygodnia p {
   font-weight: bold;
 }
 
-article.category-cytat-tygodnia p::before,
-article.category-cytat-tygodnia p::after {
+article.category-zlote-mysli p::before,
+article.category-zlote-mysli p::after {
   content: "“";
   font-size: 2em;
   line-height: 0.5em;
@@ -771,13 +767,13 @@ article.category-cytat-tygodnia p::after {
   color: #36c;
 }
 
-article.category-cytat-tygodnia p::after {
+article.category-zlote-mysli p::after {
   content: "”";
   padding-right: 0em;
   padding-left: 0.1em;
 }
 
-article.category-cytat-tygodnia div.author {
+article.category-zlote-mysli div.author {
   float: right;
   font-size: 1.3em;
   font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
@@ -1015,7 +1011,7 @@ body {
 }
 
 .hentry {
-  margin: 0 0 1.5em;
+  margin: 0;
 }
 
 .updated:not(.published) {
