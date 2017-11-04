@@ -663,6 +663,10 @@ a.more-link {
   text-transform: uppercase;
 }
 
+.nav-menu li.menu-item-object-page a {
+  color: #fff;
+}
+
 .posted-on {
   display: inline-block;
   margin-left: 5px;
