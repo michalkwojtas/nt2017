@@ -737,14 +737,15 @@ article.category-zlote-mysli div.entry-content {
 }
 
 article.category-zlote-myslia h2.entry-title {
-  margin-bottom: 0;
+  margin-bottom: 0 !important;
+  -webkit-margin-after: 0 !important;
 }
 
 article.category-zlote-mysli h2.entry-title a {
   display: inline-block;
   padding-right: 5px;
   padding-left: 5px;
-  font-size: 0.7em;
+  font-size: 1rem;
   font-weight: normal;
   font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
   text-transform: uppercase;
@@ -753,6 +754,7 @@ article.category-zlote-mysli h2.entry-title a {
 }
 
 article.category-zlote-mysli p {
+  margin-top: -1em;
   margin-bottom: 0;
   padding: 0.5em 0em;
   font-size: 2em;
