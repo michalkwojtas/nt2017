@@ -404,6 +404,7 @@ h1.entry-title,
 h2.entry-title {
   clear: none;
   margin-top: 0.1em;
+  font-size: 1.8em;
   font-family: Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -471,7 +472,7 @@ blockquote:before, blockquote:after, q:before, q:after {
   display: inline-block;
   font-family: Georgia, Times, 'Times New Roman', serif;
   color: #36c;
-  font-size: 1.8em;
+  font-size: 2em;
 }
 
 .site-description {
