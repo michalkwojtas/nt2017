@@ -1232,16 +1232,23 @@ section.widget_search {
  color: #36c;
 }
 
-/*to be tidied up later*/
-
 .club-crest {
   overflow: hidden;
   width: 4em;
   height: 4em;
   display: block;
   float: left;
-  border: solid 2px #000000;
-  margin: 0.1em;
+  border: 1px solid #fff;
+  outline: 2px solid #000;
+  margin: 3px;
+}
+
+.club-crest img {
+  max-width: none;
+  width: 4.3em;
+  height: 4.3em;
+  margin-top: -0.3em;
+  margin-left: -0.3em;
 }
 
 .all-crests {
