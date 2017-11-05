@@ -39,7 +39,7 @@
 		endif; ?>
 	</header>
 	<a href="<?php echo get_permalink(); ?>">
-	<div class="entry-content">
+	 <div class="entry-content">
 		<?php
 			the_content( sprintf(
 				/* translators: %s: Name of current post. */
@@ -52,7 +52,7 @@
 				'after'  => '</div>',
 			) );
 		?>
-	</div>
+	 </div>
 	</a>
 </article>
 <!-- #post-## -->
