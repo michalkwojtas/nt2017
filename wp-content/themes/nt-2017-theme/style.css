@@ -670,7 +670,6 @@ a.more-link {
 
 .posted-on {
   display: inline-block;
-  margin-left: 5px;
   font-size: 1em;
   color: #434343;
 }
@@ -1027,7 +1026,6 @@ body {
 
 .byline,
 .cat-links {
-  display: inline-block;
   color: #fff;
   font-size: 1em;
   text-transform: uppercase;
@@ -1037,6 +1035,11 @@ body {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+ul.post-categories li {
+  float: left;
+  margin-right: 0.4em;
 }
 
 ul.post-categories li a {
