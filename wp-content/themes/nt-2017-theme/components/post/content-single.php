@@ -10,13 +10,22 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<?php if ( '' != get_the_post_thumbnail() ) : ?>
-		<div class="post-thumbnail">
-			<a href="<?php the_permalink(); ?>">
-				<?php the_post_thumbnail( 'niecelnetrafienie-2017-featured-image' ); ?>
+	<div class="post-thumbnail">
+		<a href="<?php the_permalink(); ?>">
+			<?php the_post_thumbnail( 'niecelnetrafienie-2017-featured-image' );?>
 			</a>
-		</div>
-	<?php endif; ?>
+			<a href="<?php the_permalink(); ?>">
+			<?php
+			  if( class_exists('Dynamic_Featured_Image') ) {
+			    global $dynamic_featured_image;
+			    $featured_images = $dynamic_featured_image->get_featured_images(get_the_ID());
+			    foreach( $featured_images as $image ) {
+			      echo "<img src='{$image['full']}' />";
+			  }
+			}
+		?>
+		</a>
+</div>
 	<header class="entry-header">
 		<div class="post-crests">
 		 <div class="club-crest">
