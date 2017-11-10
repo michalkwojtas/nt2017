@@ -12,12 +12,18 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
 		<div class="post-crests">
-		 <div class="club-crest">
-			<a href="/tag/real-madrid"><img src="/nt2017/wp-content/themes/nt-2017-theme/assets/images/real-madrid-150x150.png"></a>
-		 </div>
-		 <div class="club-crest">
-			<a href="/tag/barcelona"><img src="/nt2017/wp-content/themes/nt-2017-theme/assets/images/barcelona-150x150.png"></a>
-		 </div>
+		 <?php
+			$tags_list = get_the_tags();
+			if ( ! empty( $tags_list) ) {
+			foreach ($tags_list as $tag_x) {
+				$image_x = get_term_meta( $tag_x->term_id, 'image', true );
+				if ( ! empty( $image_x ) ) {
+						$image_atts = wp_get_attachment_image_src( $image_x, 'full' );
+						echo '<div class="club-crest"><a href="'. get_term_link($tag_x).'"><img src="' . esc_url( $image_atts[0] ) . '" /></a></div>';
+				 }
+			 }
+		 }
+		 ?>
 		</div>
 		<?php if ( 'post' === get_post_type() ) : ?>
 			<?php get_template_part( 'components/post/content', 'meta' ); ?>
@@ -25,6 +31,9 @@
 		<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
 	</header>
 	<a href="<?php echo get_permalink(); ?>">
+		<div class="post-thumbnail">
+				<?php the_post_thumbnail( 'niecelnetrafienie-2017-featured-image' );?>
+	 </div>
 	 <div class="entry-content">
 		<?php
 			the_content( sprintf(

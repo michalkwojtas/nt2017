@@ -9,22 +9,21 @@
 
 ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<?php if ( '' != get_the_post_thumbnail() ) : ?>
-		<div class="post-thumbnail">
-			<a href="<?php the_permalink(); ?>">
-				<?php the_post_thumbnail( 'niecelnetrafienie-2017-featured-image' ); ?>
-			</a>
-		</div>
-	<?php endif; ?>
-	<header class="entry-header">
-		<div class="post-crests">
-		 <div class="club-crest">
-			<a href="/tag/real-madrid"><img src="/nt2017/wp-content/themes/nt-2017-theme/assets/images/real-madrid-150x150.png"></a>
-		 </div>
-		 <div class="club-crest">
-			<a href="/tag/barcelona"><img src="/nt2017/wp-content/themes/nt-2017-theme/assets/images/barcelona-150x150.png"></a>
-		 </div>
-	  </div>
+<header class="entry-header">
+	<div class="post-crests">
+   <?php
+    $tags_list = get_the_tags();
+		if ( ! empty( $tags_list) ) {
+    foreach ($tags_list as $tag_x) {
+			$image_x = get_term_meta( $tag_x->term_id, 'image', true );
+			if ( ! empty( $image_x ) ) {
+					$image_atts = wp_get_attachment_image_src( $image_x, 'full' );
+					echo '<div class="club-crest"><a href="'. get_term_link($tag_x).'"><img src="' . esc_url( $image_atts[0] ) . '" /></a></div>';
+			 }
+		 }
+	 }
+   ?>
+	</div>
 		<?php get_template_part( 'components/post/content', 'meta' ); ?>
 		<?php
 			if ( is_single() ) {
@@ -38,6 +37,13 @@
 		endif; ?>
 	</header>
 	<a href="<?php echo get_permalink(); ?>">
+		<?php if ( '' != get_the_post_thumbnail() ) : ?>
+	 		<div class="post-thumbnail">
+	 			<a href="<?php the_permalink(); ?>">
+	 				<?php the_post_thumbnail( 'niecelnetrafienie-2017-featured-image' ); ?>
+	 			</a>
+	 		</div>
+	 	<?php endif; ?>
 	 <div class="entry-content">
 		<?php
 			the_content( sprintf(
