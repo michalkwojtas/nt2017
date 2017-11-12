@@ -65,6 +65,18 @@
 				'after'  => '</div>',
 			) );
 		?>
+		<?php
+		$paragraphAfter= 3; //display after the first paragraph
+		$content = apply_filters('the_content', get_the_content());
+		$content = explode("</p>", $content);
+		for ($i = 0; $i <count($content); $i++ ) {
+		if ($i == $paragraphAfter) { ?>
+
+		<div>THIS IS MY TEST CONTENT</div>
+
+		<?php }
+		echo $content[$i] . "</p>";
+		} ?>
 	</div>
 </article>
 <!-- #post-## -->
