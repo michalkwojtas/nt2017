@@ -30,24 +30,29 @@
 		<?php endif; ?>
 		<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
 	</header>
-	<a href="<?php echo get_permalink(); ?>">
-		<div class="post-thumbnail">
-				<?php the_post_thumbnail( 'niecelnetrafienie-2017-featured-image' );?>
-	 </div>
-	 <div class="entry-content">
+	<a href="<?php the_permalink(); ?>">
+		<div class="entry-content">
+			<?php if ( '' != get_the_post_thumbnail() ) : ?>
+				<div class="post-thumbnail">
+					<a href="<?php the_permalink(); ?>">
+						<?php the_post_thumbnail( 'niecelnetrafienie-2017-featured-image' ); ?>
+					</a>
+				</div>
+			<?php endif; ?>
 		<?php
-			the_content( sprintf(
-				/* translators: %s: Name of current post. */
-				wp_kses( __( '+ Czytaj dalej', 'niecelnetrafienie-2017' ), array( 'span' => array( 'class' => array() ) ) ),
-				the_title( '<span class="screen-reader-text">"', '"</span>', false )
-			) );
+		the_content( sprintf(
+			/* translators: %s: Name of current post. */
+			wp_kses( __( '+ Czytaj dalej', 'niecelnetrafienie-2017' ), array( 'span' => array( 'class' => array() ) ) ),
+			the_title( '<span class="screen-reader-text">"', '"</span>', false )
+		) );
 
-			wp_link_pages( array(
-				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'niecelnetrafienie-2017' ),
-				'after'  => '</div>',
-			) );
+		wp_link_pages( array(
+			'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'niecelnetrafienie-2017' ),
+			'after'  => '</div>',
+		) );
 		?>
-	 </div>
+	</a>
+</div>
 	 </a>
 	<?php
     echo get_the_tag_list('<div class="tags-list">Tagi: ',', ','</div>');

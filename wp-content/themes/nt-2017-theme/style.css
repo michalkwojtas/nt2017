@@ -403,7 +403,9 @@ h1, h2, h3, h4, h5, h6 {
 h1.entry-title,
 h2.entry-title {
   clear: none;
+  display: inline-block;
   margin-top: 0.1em;
+  margin-bottom: 0.3em;
   font-size: 1.8em;
   font-family: Georgia, Times, 'Times New Roman', serif;
 }
@@ -735,7 +737,7 @@ article.category-zlote-mysli div.entry-content {
   margin: 0;
 }
 
-article.category-zlote-myslia h2.entry-title {
+article.category-zlote-mysli h2.entry-title {
   margin-bottom: 0 !important;
   -webkit-margin-after: 0 !important;
 }
@@ -753,8 +755,8 @@ article.category-zlote-mysli h2.entry-title a {
 }
 
 article.category-zlote-mysli p {
-  margin-top: -1em;
-  margin-bottom: 0;
+  margin-top: -2em;
+  margin-bottom: 0 !important;
   padding: 0.5em 0em;
   font-size: 2em;
   color: #fff;
@@ -1068,16 +1070,30 @@ ul.post-categories li a {
   margin: 0 2em 2em 0;
 }
 
-.entry-content p {
+div.post-thumbnail {
+  display: inline-block;
+  max-width: 15em;
+  float: left;
+  margin: 0;
+  padding: 0;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+
+#main .post .entry-content p {
   margin: 0 0 2em 0;
 }
 
-.entry-content p a {
-  display: inline-block;
+#main .post .entry-content p a {
+    display: inline-block;
 }
 
 #main div.tags-list {
   padding: 0 0 2em 5em;
+}
+
+#main div.tags-list a {
+  color: #36c;
 }
 
 /*-------------------------------------------------------------

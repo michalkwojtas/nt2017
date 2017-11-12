@@ -47,10 +47,12 @@
 		<?php
 		endif; ?>
 	</header>
-	<div class="post-thumbnail">
-			<?php the_post_thumbnail( 'niecelnetrafienie-2017-featured-image' );?>
- </div>
 	<div class="entry-content">
+		<?php if ( '' != get_the_post_thumbnail() ) : ?>
+			<div class="post-thumbnail">
+					<?php the_post_thumbnail( 'niecelnetrafienie-2017-featured-image' ); ?>
+			</div>
+		<?php endif; ?>
 		<?php
 			the_content( sprintf(
 				/* translators: %s: Name of current post. */
