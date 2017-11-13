@@ -280,7 +280,7 @@
 								if( $term ): ?>
 								 <a class="match-rating" target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a>
 								<?php endif; ?>
-							Najlepszy na bosku:
+							Najlepszy na boisku:
 							<span class="best-player">
 								<?php
 								$term = get_field('best-player');
