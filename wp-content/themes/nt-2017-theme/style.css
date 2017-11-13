@@ -705,6 +705,12 @@ section#primary.content-area {
   margin-right: 2em;
 }
 
+div.nav-previous,
+div.nav-next {
+padding-top: 1.5em;
+padding-bottom: 2.5em;
+}
+
 div.nav-previous ::before,
 div.nav-next ::after {
   content: "◀ ";
