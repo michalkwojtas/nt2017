@@ -134,6 +134,11 @@
 							</div>
 							<div>
 								<?php
+								$term = get_field('team1-am4');
+								if( $term ): ?>
+								 <a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a>
+								<?php endif; ?>
+								<?php
 								$term = get_field('team1-am3');
 								if( $term ): ?>
 								 <a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a>
