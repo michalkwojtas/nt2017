@@ -1224,6 +1224,12 @@ div.team-wrapper.team2 h3.tactics-team-name a {
   font-weight: 700;
 }
 
+.match-rating {
+  margin-right: 0.5em;
+  font-style: normal;
+  font-size: 1.3em;
+}
+
 div.crest-in-tactics {
   position: relative;
   top: 1em;
