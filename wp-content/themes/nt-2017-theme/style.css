@@ -1102,6 +1102,15 @@ div.post-thumbnail {
   color: #36c;
 }
 
+div.entry-content p goal {
+  padding-left: 1.4em;
+  background-image: url("../nt-2017-theme/assets/images/goal-icon.png");
+  background-position: left center;
+  background-size: 1.2em 1.2em;
+  background-repeat: no-repeat;
+  font-weight: bold;
+}
+
 /*-------------------------------------------------------------
 ### Tactics view
 
