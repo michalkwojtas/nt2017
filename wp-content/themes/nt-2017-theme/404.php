@@ -14,13 +14,13 @@ get_header(); ?>
 
 			<section class="error-404 not-found">
 				<header class="page-header">
-					<h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'niecelnetrafienie-2017' ); ?></h1>
+					<h1 class="entry-title"><?php esc_html_e( '404. Niecelne trafienie. Nie ma takiej strony.', 'niecelnetrafienie-2017' ); ?></h1>
 				</header>
 				<div class="page-content">
-					<p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'niecelnetrafienie-2017' ); ?></p>
-
+					<div class="404-image"><img src="/nt2017/wp-content/themes/nt-2017-theme/assets/images/baggio-world-cup-miss.jpg"></div>
+					<p><?php esc_html_e( 'Jeśli trafiłaś/eś na tę stronę z wyszukiwarki, użyj formularza w prawym górnym rogu aby szukać interesującej Cię frazy. Możesz też wybrać kategorię na belce powyżej lub tag po prawej stronie (komputer) lub poniżej (telefon)', 'niecelnetrafienie-2017' ); ?></p>
 					<?php
-						get_search_form();
+	/*			  get_search_form();
 
 						the_widget( 'WP_Widget_Recent_Posts' );
 
@@ -43,18 +43,19 @@ get_header(); ?>
 						</ul>
 					</div>
 					<?php
-						endif;
+						endif;  */
 
 						/* translators: %1$s: smiley */
-						$archive_content = '<p>' . sprintf( esc_html__( 'Try looking in the monthly archives. %1$s', 'niecelnetrafienie-2017' ), convert_smilies( ':)' ) ) . '</p>';
+				/*  $archive_content = '<p>' . sprintf( esc_html__( 'Try looking in the monthly archives. %1$s', 'niecelnetrafienie-2017' ), convert_smilies( ':)' ) ) . '</p>';
 						the_widget( 'WP_Widget_Archives', 'dropdown=1', "after_title=</h2>$archive_content" );
 
-						the_widget( 'WP_Widget_Tag_Cloud' );
+			    	the_widget( 'WP_Widget_Tag_Cloud' ); */
 					?>
 
 				</div>
 			</section>
 		</main>
 	</div>
-<?php
-get_footer();
+	<?php
+	get_sidebar();
+	get_footer();

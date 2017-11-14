@@ -1069,7 +1069,12 @@ ul.post-categories li a {
 
 .page-content,
 .entry-summary {
-  margin: 1.5em 0 0;
+  margin: 0;
+}
+
+div.page-content {
+  padding-top: 0;
+  padding-left: 5em;
 }
 
 .entry-content {
@@ -1109,6 +1114,13 @@ div.entry-content p goal {
   background-size: 1.2em 1.2em;
   background-repeat: no-repeat;
   font-weight: bold;
+}
+
+#main section div div {
+  display: block;
+  margin-top: 0.5em;
+  border: 2px solid #fff;
+  outline: 2px solid #000;
 }
 
 /*-------------------------------------------------------------
@@ -1327,7 +1339,22 @@ section.widget_search {
   height: 67em;
 }
 
-.custom-html-widget {
+div.page-content div.widget {
+  padding-left: 0;
+}
+
+div.page-content form#searchform {
+  margin-top: 2.5em;
+  margin-bottom: 3em;
+  width: 100%;
+}
+
+div.page-content form#searchform input#searchinput {
+  width: 79%;
+}
+
+div.page-content form#searchform input#searchsubmit {
+  width: 19%;
 }
 
 /*--------------------------------------------------------------

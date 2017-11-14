@@ -11,9 +11,10 @@
 
 <section class="no-results not-found">
 	<header class="page-header">
-		<h1 class="page-title"><?php esc_html_e( 'Nothing Found', 'niecelnetrafienie-2017' ); ?></h1>
+		<h1 class="entry-title"><?php esc_html_e( 'Brak wyników wyszukiwania', 'niecelnetrafienie-2017' ); ?></h1>
 	</header>
 	<div class="page-content">
+		<div class="404-image"><img src="/nt2017/wp-content/themes/nt-2017-theme/assets/images/england-defeat.jpg"></div>
 		<?php
 		if ( is_home() && current_user_can( 'publish_posts' ) ) : ?>
 
@@ -21,15 +22,15 @@
 
 		<?php elseif ( is_search() ) : ?>
 
-			<p><?php esc_html_e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.', 'niecelnetrafienie-2017' ); ?></p>
+			<p><?php esc_html_e( 'Niestety, do wpisanej przez Ciebie frazy nie pasują żadne treści na tej stronie. Spróbuj wpisać inną frazę. Możesz też wybrać kategorię na belce powyżej lub tag po prawej stronie (komputer) lub poniżej (telefon).', 'niecelnetrafienie-2017' ); ?></p>
 			<?php
-				get_search_form();
+		/*	get_search_form();
 
 		else : ?>
 
 			<p><?php esc_html_e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'niecelnetrafienie-2017' ); ?></p>
 			<?php
-				get_search_form();
+				get_search_form(); */
 
 		endif; ?>
 	</div>
