@@ -1228,6 +1228,14 @@ div.team-wrapper.team2 h3.tactics-team-name a {
   margin-right: 0.5em;
   font-style: normal;
   font-size: 1.3em;
+  color:#bbcdee;
+}
+
+div.entry-meta span.match-rating {
+  margin-left: 0.3em;
+  display: inline;
+  font-size: 0.8em;
+  line-height: 0.8em;
 }
 
 div.crest-in-tactics {
