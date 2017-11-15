@@ -629,8 +629,8 @@ hr {
 .more-link,
 .nav-links a {
   display: block;
-  margin-top: 15px;
-  margin-right: 10px;
+  margin-top: 1.5em;
+  margin-right: 2em;
   padding-right: 5px;
   padding-left: 5px;
   background-color: #000;
@@ -698,6 +698,7 @@ section ul {
 section#primary.content-area {
   border-bottom: none;
   padding-bottom: 0;
+  padding-right: 0;
 }
 
 .nav-links {
@@ -1011,6 +1012,7 @@ body {
   margin: 0;
 }
 
+
 .no-sidebar .content-area {
   float: none;
   margin-left: auto;
@@ -1100,10 +1102,11 @@ div.post-thumbnail {
 }
 
 #main div.tags-list {
-  padding: 0 0 2em 5em;
+  padding: 0 2em 2em 5em;
 }
 
 #main div.tags-list a {
+  font-size: 0.8em;
   color: #36c;
 }
 
@@ -1116,7 +1119,7 @@ div.entry-content p goal {
   font-weight: bold;
 }
 
-#main section div div {
+#main section div div img {
   display: block;
   margin-top: 0.5em;
   border: 2px solid #fff;
