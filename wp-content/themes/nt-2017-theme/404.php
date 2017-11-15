@@ -17,7 +17,7 @@ get_header(); ?>
 					<h1 class="entry-title"><?php esc_html_e( '404. Niecelne trafienie. Nie ma takiej strony.', 'niecelnetrafienie-2017' ); ?></h1>
 				</header>
 				<div class="page-content">
-					<div class="404-image"><img src="/nt2017/wp-content/themes/nt-2017-theme/assets/images/baggio-world-cup-miss.jpg"></div>
+					<div class="404-image"><p class="image-error-message">404</p></div>
 					<p><?php esc_html_e( 'Jeśli trafiłaś/eś na tę stronę z wyszukiwarki, użyj formularza w prawym górnym rogu aby szukać interesującej Cię frazy. Możesz też wybrać kategorię na belce powyżej lub tag po prawej stronie (komputer) lub poniżej (telefon)', 'niecelnetrafienie-2017' ); ?></p>
 					<?php
 	/*			  get_search_form();

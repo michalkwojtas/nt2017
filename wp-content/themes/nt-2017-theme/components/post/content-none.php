@@ -14,7 +14,7 @@
 		<h1 class="entry-title"><?php esc_html_e( 'Brak wyników wyszukiwania', 'niecelnetrafienie-2017' ); ?></h1>
 	</header>
 	<div class="page-content">
-		<div class="404-image"><img src="/nt2017/wp-content/themes/nt-2017-theme/assets/images/england-defeat.jpg"></div>
+		<div class="no-search-results-image"><p class="image-error-message">0:0</p></div>
 		<?php
 		if ( is_home() && current_user_can( 'publish_posts' ) ) : ?>
 
