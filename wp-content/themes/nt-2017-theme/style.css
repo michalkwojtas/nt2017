@@ -566,11 +566,21 @@ input[type="color"] {
   padding: 3px;
 }
 
+#site-navigation div.widget.widget_search #searchform {
+  padding-left: 0;
+  padding-right: 5em;
+}
+
+div.page-content form#searchform {
+  margin-top: 2.5em;
+  margin-bottom: 3em;
+  width: 100%;
+}
+
 input.searchinput {
   height: 32px;
-  width: 16em;
+  width: 73%;
   margin: 0;
-  padding-left: 5px;
   font-style: normal;
   color: #36c;
   border: solid 1px #36c;
@@ -578,6 +588,7 @@ input.searchinput {
 
 input.searchsubmit {
  height: 32px;
+ width: 22%;
  margin: 0;
  font-style: normal;
  color: #36c;
@@ -621,9 +632,19 @@ hr {
   margin-bottom: 1.5em;
 }
 
-.menu,
-.menu-menu-1-container {
+
+#site-navigation div.menu-menu-1-container {
+  float: left;
+  width: 70%;
+  padding-right: 0;
   background-color: #bbcdee;
+}
+
+#site-navigation div.widget.widget_search {
+  float: left;
+  width: 30%;
+  margin: 0;
+  padding: 4px 0 0 0;
 }
 
 .more-link,
@@ -843,13 +864,16 @@ table {
   width: 100%;
   padding-top: 0px;
   padding-bottom: 0px;
+  background-color: #bbcdee;
 }
+
 .main-navigation ul {
   display: none;
   list-style: none;
   margin: 0;
   padding-left: 0;
 }
+
 .main-navigation ul ul {
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
   float: left;
@@ -1140,6 +1164,8 @@ div.entry-content p goal {
   text-align: center;
   font-size: 20em;
   line-height: 1em;
+  margin: 0;
+  padding: 0;
   -webkit-margin-before: 0;
   -webkit-margin-after: 0;
   font-weight: bold;
@@ -1217,6 +1243,13 @@ div.team-wrapper div a:hover {
 div.team-wrapper.team2 a {
   color: #000;
   border-color: #000;
+}
+
+div.entry-content h3.fbcomments {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #36c;
 }
 
 h3.tactics-team-name {
@@ -1313,16 +1346,6 @@ div.crest-in-tactics {
   max-width: 100%;
 }
 
-section.widget_search {
-/*tidy up later*/
-  position: absolute;
-  top: 86px;
-  right: 5em;
-  margin-top: 0;
-  padding: 0;
-  border: none;
-}
-
 .tag-cloud {
   padding: 2em 0 2em 0;
   background-color: #bbcdee;
@@ -1366,20 +1389,6 @@ section.widget_search {
 
 div.page-content div.widget {
   padding-left: 0;
-}
-
-div.page-content form#searchform {
-  margin-top: 2.5em;
-  margin-bottom: 3em;
-  width: 100%;
-}
-
-div.page-content form#searchform input#searchinput {
-  width: 79%;
-}
-
-div.page-content form#searchform input#searchsubmit {
-  width: 19%;
 }
 
 /*--------------------------------------------------------------
