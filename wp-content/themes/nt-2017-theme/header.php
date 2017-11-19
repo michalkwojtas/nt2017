@@ -32,4 +32,5 @@
 		<?php get_template_part( 'components/navigation/navigation', 'top' ); ?>
 
 	</header>
+	<div class="mobile-menu-bottom"></div>
 	<div id="content" class="site-content">
