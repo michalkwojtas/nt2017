@@ -75,7 +75,7 @@ article {
   border-style: none none dashed;
   border-bottom-width: 2px;
   border-bottom-color: #bbcdee;
-  padding-top: 4em;
+  padding-top: 1em;
 }
 
 audio,
@@ -121,7 +121,7 @@ dfn {
 
 h1 {
   font-size: 2em;
-  margin: 0.67em 0;
+  margin: 0;
 }
 
 mark {
@@ -361,7 +361,7 @@ th {
 .entry-content,
 .entry-footer,
 .entry-header {
- padding-left: 5em;
+ padding-left: 1em;
 }
 
 .post-crests {
@@ -369,16 +369,27 @@ th {
  padding-right: 0.5em;
 }
 
-#masthead div,
+
+#masthead div {
+  padding-left: 1em;
+  padding-right: 15%;
+}
+
 div.tag-cloud,
 div.site-info {
-  padding-left: 5em;
-  padding-right: 5em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+header.site-header {
+  padding-bottom: 0.5em;
+  border-bottom: solid 1em #bbcdee;
 }
 
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
+html,
 body,
 button,
 input,
@@ -479,9 +490,10 @@ blockquote:before, blockquote:after, q:before, q:after {
 
 .site-description {
   display: inline-block;
-  padding-left: 10px;
   font-size: 1.2em;
   font-weight: normal;
+  -webkit-margin-before: 0.2em;
+  -webkit-margin-after: 0.2em;
 }
 
 .widget-title {
@@ -492,7 +504,7 @@ blockquote:before, blockquote:after, q:before, q:after {
 .page-header {
   margin: 0px;
   padding-top: 4em;
-  padding-left: 5em;
+  padding-left: 1em;
   font-family: Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -568,7 +580,7 @@ input[type="color"] {
 
 #site-navigation div.widget.widget_search #searchform {
   padding-left: 0;
-  padding-right: 5em;
+  padding-right: 1em;
 }
 
 div.page-content form#searchform {
@@ -581,6 +593,7 @@ input.searchinput {
   height: 32px;
   width: 73%;
   margin: 0;
+  padding-left: 0.4em;
   font-style: normal;
   color: #36c;
   border: solid 1px #36c;
@@ -591,8 +604,10 @@ input.searchsubmit {
  width: 22%;
  margin: 0;
  font-style: normal;
- color: #36c;
+ color: #fff;
+ background-color: #36c;
  border: solid 1px #36c;
+ border-radius: 3px;
 }
 
 textarea {
@@ -632,26 +647,11 @@ hr {
   margin-bottom: 1.5em;
 }
 
-
-#site-navigation div.menu-menu-1-container {
-  float: left;
-  width: 70%;
-  padding-right: 0;
-  background-color: #bbcdee;
-}
-
-#site-navigation div.widget.widget_search {
-  float: left;
-  width: 30%;
-  margin: 0;
-  padding: 4px 0 0 0;
-}
-
 .more-link,
 .nav-links a {
   display: block;
-  margin-top: 1.5em;
-  margin-right: 2em;
+  margin-top: 0.5em;
+  margin-right: 0.5em;
   padding-right: 5px;
   padding-left: 5px;
   background-color: #000;
@@ -667,7 +667,6 @@ a.more-link {
   display: inline-block;
   background-color: #36c;
 }
-
 
 .nav-menu {
   display: inline-block;
@@ -691,6 +690,44 @@ a.more-link {
   color: #fff;
 }
 
+#site-navigation div.menu-menu-1-container {
+  float: left;
+  margin-top: -7em;
+  padding: 0;
+  background-color: #bbcdee;
+  width: 85%;
+}
+
+#site-navigation div.widget.widget_search {
+  float: right;
+  margin: 0;
+  padding: 0;
+  display: none;
+}
+
+#site-navigation div.menu-menu-1-container ul#top-menu,
+#site-navigation div.menu-menu-1-container ul#top-menu li.menu-item,
+#site-navigation div.menu-menu-1-container ul#top-menu li.menu-item a {
+  clear:both;
+  float: none;
+  background-color: #bbcdee;
+  width: 100%;
+}
+
+#site-navigation div.menu-menu-1-container ul#top-menu li.menu-item {
+  padding: 0.4em 0 0.4em 1em;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 1.2em;
+}
+
+#site-navigation div.widget.widget_search {
+  float: right;
+  margin: 0;
+  padding: 0;
+  display: none;
+}
+
 .posted-on {
   display: inline-block;
   font-size: 1em;
@@ -703,7 +740,7 @@ a.more-link {
 
 section {
   margin-bottom: 0px;
-  padding-right: 5em;
+  padding-right: 1em;
   padding-bottom: 4em;
   border-style: none none dashed;
   border-bottom-width: 2px;
@@ -723,14 +760,14 @@ section#primary.content-area {
 }
 
 .nav-links {
-  padding-left: 5em;
+  padding-left: 1em;
   margin-right: 2em;
 }
 
 div.nav-previous,
 div.nav-next {
-padding-top: 1.5em;
-padding-bottom: 2.5em;
+padding-top: 0.5em;
+padding-bottom: 0.5em;
 }
 
 div.nav-previous ::before,
@@ -747,7 +784,7 @@ div.nav-next ::after {
 
 article.category-zlote-mysli {
   background-color: #bbcdee;
-  padding: 2em 3em 2em 0em;
+  padding: 0em 1em 1em 0em;
   border-bottom: dashed 2px #fff;
   border-left: dashed 2px #fff;
 }
@@ -785,8 +822,8 @@ article.category-zlote-mysli h2.entry-title a {
 article.category-zlote-mysli p {
   margin-top: -2em;
   margin-bottom: 0 !important;
-  padding: 0.5em 0em;
-  font-size: 2em;
+  padding: 0em 0em 0.5em 0em;
+  font-size: 1.5em;
   color: #fff;
   font-family: Georgia, Times, 'Times New Roman', serif;
   font-weight: bold;
@@ -795,7 +832,7 @@ article.category-zlote-mysli p {
 article.category-zlote-mysli p::before,
 article.category-zlote-mysli p::after {
   content: "“";
-  font-size: 2em;
+  font-size: 1.5em;
   line-height: 0.5em;
   position: relative;
   top: 0.4em;
@@ -811,7 +848,7 @@ article.category-zlote-mysli p::after {
 
 article.category-zlote-mysli div.author {
   float: right;
-  font-size: 1.3em;
+  font-size: 1em;
   font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
   font-weight: normal;
   color: #36c;
@@ -908,12 +945,37 @@ table {
 .menu-toggle,
 .main-navigation.toggled ul {
   display: block;
+  margin: 0;
+  float: left;
+  font-style: normal;
+  font-weight: bold;
+  background-color: #fff;
+  color: #000;
+  border: none;
+}
+
+.menu-toggle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 15%;
 }
 
 .menu-toggle:before {
+  font-size: 3em;
   content: "\2630";
   display: inline-block;
   margin-right: 5px;
+  padding-bottom: 0.6em;
+  color: #bbcdee;
+}
+
+#site-navigation.main-navigation.toggled button.menu-toggle:before {
+  content: "X";
+}
+
+#site-navigation {
+  background-color: #fff;
 }
 
 @media screen and (min-width: 37.5em) {
@@ -1004,6 +1066,102 @@ body {
 }
 
 @media screen and (min-width: 37.5em) {
+
+    h1 {
+      margin: 0.67em 0;
+    }
+
+    .site-description {
+      display: inline-block;
+      font-size: 1.2em;
+      font-weight: normal;
+      -webkit-margin-before: 0.2em;
+      -webkit-margin-after: 0.2em;
+    }
+
+    #masthead div {
+      padding-left: 1em;
+      padding-right: 1em;
+    }
+
+    header.site-header {
+      border-bottom: none;
+      padding-bottom: 0;
+    }
+
+    #site-navigation {
+      background-color: #bbcdee;
+    }
+
+    #site-navigation div.menu-menu-1-container {
+      width: 70%;
+      display: block;
+      margin-left: 0;
+      margin-top: 0;
+      padding-left: 5em;
+    }
+
+    #site-navigation div.menu-menu-1-container ul#top-menu {
+      clear: none;
+    }
+
+    #site-navigation div.menu-menu-1-container ul#top-menu li.menu-item {
+      width: auto;
+      clear: none;
+      float: left;
+      font-size: 1em;
+      padding: 0;
+    }
+
+    #site-navigation div.menu-menu-1-container ul#top-menu li.menu-item a {
+      clear: none;
+    }
+
+    #site-navigation div.widget.widget_search {
+      float: left;
+      width: 30%;
+      padding: 4px 0 0 0;
+      display: block;
+    }
+
+    article {
+      padding-top: 4em;
+    }
+
+    div.entry-meta span.match-rating {
+      margin-left: 0.3em;
+      margin-top: 0;
+      font-size: 0.8em;
+      line-height: 0.8em;
+    }
+
+    div.entry-meta span.match-rating a {
+      margin-top: 0;
+      font-size: 0.8em;
+      line-height: 0.8em;
+    }
+
+    #main .post .entry-content p {
+      margin: 0 0 2em 0;
+    }
+
+    article.category-zlote-mysli {
+     padding: 2em 3em 2em 0em;
+   }
+
+    article.category-zlote-mysli p {
+     font-size: 2em;
+    }
+
+    article.category-zlote-mysli p::before,
+    article.category-zlote-mysli p::after {
+      font-size: 2em;
+    }
+
+    article.category-zlote-mysli div.author {
+     font-size: 1em;
+   }
+
     .content-area {
       float: left;
       margin: 0 -30% 0 0;
@@ -1027,6 +1185,88 @@ body {
       clear: both;
       width: 100%;
     }
+
+    #masthead div,
+    div.tag-cloud,
+    div.site-info {
+      padding-left: 5em;
+      padding-right: 5em;
+    }
+
+    .page-header {
+      padding-left: 5em;
+    }
+
+    #site-navigation div.widget.widget_search #searchform {
+      padding-right: 5em;
+    }
+
+    section {
+      padding-right: 5em;
+    }
+
+    .nav-links {
+      padding-left: 5em;
+    }
+
+    div.page-content {
+      padding-left: 5em;
+    }
+
+    .entry-content,
+    .entry-footer,
+    .entry-header {
+     padding-left: 5em;
+    }
+
+    .entry-content {
+      margin: 0 2em 2em 0;
+    }
+
+    #main div.tags-list {
+      padding: 0 2em 2em 5em;
+    }
+
+    div.tactics-wrapper {
+      padding: 1em 0em;
+      margin: 1.5em 1em;
+    }
+
+    div.tactics-wrapper div {
+      font-size: 1rem;
+    }
+
+    div.team-wrapper div a {
+      display: inline-block;
+      left: auto;
+      right: auto;
+      -webkit-transition: .3s ease-in-out;
+      transition: .3s ease-in-out;
+      margin-right: 0.2em;
+      margin-left: 0.2em;
+      padding: 0.1em 0.3em;
+      background-color: #fff;
+      color: #36c;
+      border: solid 1px #36c;
+      border-left: solid 5px #36c;
+    }
+
+    .more-link,
+    .nav-links a {
+      margin-top: 1.5em;
+      margin-right: 2em;
+    }
+
+    div.nav-previous,
+    div.nav-next {
+    padding-top: 1.5em;
+    padding-bottom: 2.5em;
+    }
+
+    aside .widget {
+      margin: 4em 0;
+    }
+
 }
 
 /*--------------------------------------------------------------
@@ -1100,11 +1340,11 @@ ul.post-categories li a {
 
 div.page-content {
   padding-top: 0;
-  padding-left: 5em;
+  padding-left: 1em;
 }
 
 .entry-content {
-  margin: 0 2em 2em 0;
+  margin: 0 1em 1em 0;
 }
 
 div.post-thumbnail {
@@ -1118,7 +1358,7 @@ div.post-thumbnail {
 }
 
 #main .post .entry-content p {
-  margin: 0 0 2em 0;
+  margin: 0 0 1em 0;
 }
 
 #main .post .entry-content p a {
@@ -1126,7 +1366,7 @@ div.post-thumbnail {
 }
 
 #main div.tags-list {
-  padding: 0 2em 2em 5em;
+  padding: 0 2em 2em 1em;
 }
 
 #main div.tags-list a {
@@ -1174,45 +1414,21 @@ div.entry-content p goal {
   opacity: 0.7;
 }
 
-/*-------------------------------------------------------------
-### Tactics view
-
-<div class="tactics-wrapper">
-  <div class="team-wrapper">
-    <h1 class="tactics-team-name">Real Madryt: <a href="#" class="formation">4-3-3</a></h1>
-    <div><a href="#">Keylor Navas</a></div>
-    <div><a href="#">Daniel Carvajal</a><a href="#">Nacho</a><a href="#">Sergio Ramos</a><a href="#">Marcelo</a></div>
-    <div><a href="#">Toni Kroos</a><a href="#">Casemiro</a><a href="#">Luca Modrić</a></div>
-    <div><a href="#">Gareth Bale</a><a href="#">Karim Benzema</a><a href="#">Cristiano Ronaldo</a></div>
-  </div>
-  <div class="team-wrapper team2">
-    <div><a href="#">Paco Alcacer</a><a href="#">Luis Suarez</a></div>
-    <div><a href="#">Lionel Messi</a></div>
-    <div><a href="#">Andres Iniesta</a><a href="#">Sergi Busquets</a><a href="#">Ivan Rakitić</a></div>
-    <div><a href="#">Jordi Alba</a><a href="#">Samuel Umtiti</a><a href="#">Gerard Pique</a><a href="#">Sergi Roberto</a></div>
-    <div><a href="#">Marc-Andre Ter Stegen</a></div>
-    <h1 class="tactics-team-name">FC Barcelona: <a href="#" class="formation">4-3-1-2</a></h1>
-  </div>
-  <div class="tactics-summary"><p class="tactics-summary-text">Poziom meczu: <span class="match-rating">6/6</span> Najlepszy na bosku: <strong><span class="best-player">Lionel Messi</span></strong></p></div>
-</div>
-
---------------------------------------------------------------*/
-
-.tactics-wrapper {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin: 10px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+div.tactics-wrapper {
+  padding: 0em;
+  margin: 1em 0em;
+  font-size: 12px;
 }
 
 .team-wrapper {
   padding: 1em 0;
   background-color: #bbcdee;
+  border-radius: 5px 5px 0px 0px;
 }
 
 .team-wrapper.team2 {
   border-top: 2px dashed #fff;
+  border-radius: 0px;
 }
 
 div.team-wrapper div {
@@ -1227,13 +1443,11 @@ div.team-wrapper div a {
   right: auto;
   -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
-  margin-right: 0.2em;
-  margin-left: 0.2em;
-  padding: 0.1em 0.3em;
+  margin-right: 0.1em;
+  margin-left: 0.1em;
+  padding: 0.1em 0.2em;
   background-color: #fff;
   color: #36c;
-  border: solid 1px #36c;
-  border-left: solid 5px #36c;
 }
 
 div.team-wrapper div a:hover {
@@ -1278,6 +1492,7 @@ div.team-wrapper.team2 h3.tactics-team-name a {
 
 .tactics-summary {
   border: 1px solid #bbcdee;
+  border-radius: 0px 0px 5px 5px;
 }
 
 #main div.entry-content p.tactics-summary-text {
@@ -1301,11 +1516,10 @@ div.team-wrapper.team2 h3.tactics-team-name a {
   color:#bbcdee;
 }
 
-div.entry-meta span.match-rating {
-  margin-left: 0.3em;
-  display: inline;
-  font-size: 0.8em;
-  line-height: 0.8em;
+div.entry-meta span.match-rating a {
+  margin-left: 0em;
+  font-size: 1.3em;
+  line-height: 1.3em;
 }
 
 div.crest-in-tactics {
@@ -1338,10 +1552,10 @@ div.crest-in-tactics {
 --------------------------------------------------------------*/
 
 .widget {
-  margin: 4em 0;
+  margin: 1em 0;
   padding-left: 2em;
-  /* Make sure select elements fit in widgets. */
 }
+
 .widget select {
   max-width: 100%;
 }
@@ -1357,6 +1571,7 @@ div.crest-in-tactics {
  padding: 1em 0 1em 0;
  background-color: #fff;
  color: #434343;
+ border-top: solid 1px #36c;
 }
 
 .site-info a {
