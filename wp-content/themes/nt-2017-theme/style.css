@@ -1308,6 +1308,10 @@ div.team-wrapper.team2 h3.tactics-team-name a {
   color: #000;
 }
 
+span.formation {
+  display: none;
+}
+
 .tactics-summary {
   border: 1px solid #bbcdee;
   border-radius: 0px 0px 5px 5px;
@@ -1322,28 +1326,30 @@ div.team-wrapper.team2 h3.tactics-team-name a {
   text-align: center;
 }
 
-.best-player,
-.match-rating {
-  font-weight: 700;
+p.tactics-summary-text span.match-rating {
+  display: none;
 }
 
-.match-rating {
+p.tactics-summary-text span.best-player,
+p.tactics-summary-text span.match-rating {
+  font-style: italic;
+}
+
+p.tactics-summary-text span.match-rating a {
+  font-size: 1.3em;
+  line-height: 1.3em;
   margin-right: 0.5em;
   font-style: normal;
-  font-size: 1.3em;
+  font-weight: bold;
   color:#bbcdee;
 }
 
-div.entry-meta span.match-rating a {
-  margin-left: 0em;
-  font-size: 1.3em;
-  line-height: 1.3em;
+p.tactics-summary-text span.best-player span.bold {
+  font-weight: bold;
 }
 
-div.crest-in-tactics {
-  position: relative;
-  top: 1em;
-  left: 1em;
+div.entry-meta span.match-rating {
+  margin-left: 0em;
 }
 
 /*--------------------------------------------------------------
@@ -1661,6 +1667,14 @@ object {
 
     div.entry-meta span.match-rating a {
       margin-top: 0;
+    }
+
+    span.formation {
+      display: inline-block;
+    }
+
+    p.tactics-summary-text span.match-rating {
+      display: inline-block;
     }
 
     #main .post .entry-content p {

@@ -67,19 +67,23 @@
 								$term = get_field('team1');
 								if( $term ): ?>
 								 <a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?> </a>
-								<?php endif; ?>
+							 <?php endif; ?>
+							 <span class="formation">
 								  |  Ustawienie:
 								<?php
 								$term = get_field('team1-formation');
 								if( $term ): ?>
-								 <a class="formation" target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?> </a>
+								 <a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?> </a>
 								<?php endif; ?>
+							</span>
+							<span class="manager">
 								  |  Trener:
 								<?php
 								$term = get_field('team1-manager');
 								if( $term ): ?>
-								 <a class="manager" target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a>
+								 <a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a>
 								<?php endif; ?>
+							</span>
 							</h3>
 							<div>
 								<?php
@@ -269,33 +273,40 @@
 							if( $term ): ?>
 							 <a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?> </a>
 							<?php endif; ?>
+							<span class="formation">
 							  |  Ustawienie:
 							<?php
 							$term = get_field('team2-formation');
 							if( $term ): ?>
-							 <a class="formation" target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?> </a>
+							 <a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?> </a>
 							<?php endif; ?>
+						</span>
+						<span class="manager">
 							  |  Trener:
 							<?php
 							$term = get_field('team2-manager');
 							if( $term ): ?>
-							 <a class="manager" target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a>
+							 <a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a>
 							<?php endif; ?>
+						</span>
 						</h3>
 					</div>
 					<div class="tactics-summary">
-						<p class="tactics-summary-text">Poziom meczu:
+						<p class="tactics-summary-text">
+							<span class="match-rating">
+							Poziom meczu:
 								<?php
 								$term = get_field('match-rating');
 								if( $term ): ?>
-								 <a class="match-rating" target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a>
+								 <a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a>
 								<?php endif; ?>
-							Najlepszy na boisku:
+							</span>
 							<span class="best-player">
+							Najlepszy na boisku:
 								<?php
 								$term = get_field('best-player');
 								if( $term ): ?>
-								 <?php echo $term->name; ?>
+								 <span class="bold"><?php echo $term->name; ?></span>
 								<?php endif; ?>
 							</span>
 						</p>
