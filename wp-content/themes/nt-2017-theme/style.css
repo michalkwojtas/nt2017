@@ -435,6 +435,12 @@ h2.entry-title a {
     color: #000;
 }
 
+h2.entry-title {
+  margin-top: 0.3em;
+  font-size: 1.6em;
+  line-height: 1.6em;
+}
+
 p {
   margin-bottom: 1.5em;
 }
@@ -806,7 +812,7 @@ div.nav-next ::after {
 
 article.category-zlote-mysli {
   background-color: #bbcdee;
-  padding: 0em 1em 1em 0em;
+  padding: 1em 1em 1em 0em;
   border-bottom: dashed 2px #fff;
   border-left: dashed 2px #fff;
 }
@@ -825,6 +831,7 @@ article.category-zlote-mysli div.entry-content {
 }
 
 article.category-zlote-mysli h2.entry-title {
+  line-height: 0.8em;
   margin-bottom: 0 !important;
   -webkit-margin-after: 0 !important;
 }
@@ -1642,6 +1649,11 @@ object {
 
     article {
       padding-top: 4em;
+    }
+
+    h2.entry-title {
+      margin-top: 0.1em;
+      font-size: 1.8em;
     }
 
     a.more-link,
