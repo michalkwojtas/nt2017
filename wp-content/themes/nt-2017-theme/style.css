@@ -1350,6 +1350,12 @@ p.tactics-summary-text span.best-player span.bold {
 
 div.entry-meta span.match-rating {
   margin-left: 0em;
+  font-size: 2em;
+  line-height: 1.3em;
+  font-weight: bold;
+  font-style: normal;
+  color:#bbcdee;
+  display:inline-block;
 }
 
 /*--------------------------------------------------------------
@@ -1659,10 +1665,10 @@ object {
     }
 
     div.entry-meta span.match-rating {
-      margin-left: 0.3em;
+      margin-left: 0.4em;
       margin-top: 0;
-      font-size: 0.8em;
-      line-height: 0.8em;
+      font-size: 1em;
+      line-height: 1em;
     }
 
     div.entry-meta span.match-rating a {
