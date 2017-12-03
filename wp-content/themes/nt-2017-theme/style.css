@@ -679,12 +679,18 @@ hr {
 
 a.more-link {
   float: right;
+  margin-top: 1.5em;
+  margin-right: -1em;
 }
 
 a.more-link,
 div.nav-next a,
 div.nav-previous a {
   padding: 0.5em;
+}
+
+a.more-link {
+  padding: 0.5em 1em;
 }
 
 .nav-links a {
@@ -788,8 +794,8 @@ section#primary.content-area {
 }
 
 .nav-links {
-  padding-left: 2em;
-  margin-right: 2em;
+  padding-left: 0em;
+  margin-right: 0em;
 }
 
 div.nav-previous,
@@ -886,6 +892,7 @@ article.category-zlote-mysli div.author {
 .all-crests {
   display: block;
   height: 56em;
+  text-align: center;
 }
 
 /*--------------------------------------------------------------
@@ -1390,11 +1397,18 @@ div.entry-meta span.match-rating {
 
 .widget {
   margin: 1em 0;
-  padding-left: 2em;
+  padding-left: 1em;
 }
 
 .widget select {
   max-width: 100%;
+}
+
+#archives-2 ul li {
+  font-size: 1.2em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  text-align: center;
 }
 
 .tag-cloud {
@@ -1423,7 +1437,7 @@ div.entry-meta span.match-rating {
   float: left;
   border: 1px solid #fff;
   outline: 2px solid #000;
-  margin: 3px;
+  margin: 6px;
 }
 
 .club-crest img {
@@ -1666,6 +1680,11 @@ object {
       padding-bottom: 0;
     }
 
+    .nav-links {
+      padding-left: 1em;
+      margin-right: 2em;
+    }
+
     .more-link,
     .nav-links a {
       margin-right: 0.5em;
@@ -1733,6 +1752,10 @@ object {
       float: right;
       overflow: hidden;
       width: 30%;
+    }
+
+    .club-crest {
+      margin: 3px;
     }
 
     .all-crests {
@@ -1820,8 +1843,18 @@ object {
     padding-bottom: 2.5em;
     }
 
+    .widget {
+      padding-left: 2em;
+    }
+
     aside .widget {
       margin: 4em 0;
+    }
+
+    #archives-2 ul li {
+      font-size: 1em;
+      padding: 0;
+      text-align: left;
     }
 
     #main section div div {
