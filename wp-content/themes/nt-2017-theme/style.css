@@ -501,12 +501,12 @@ blockquote:before, blockquote:after, q:before, q:after {
   display: inline-block;
   font-family: Georgia, Times, 'Times New Roman', serif;
   color: #36c;
-  font-size: 2em;
+  font-size: 1.8em;
 }
 
 .site-description {
   display: inline-block;
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: normal;
   -webkit-margin-before: 0.2em;
   -webkit-margin-after: 0.2em;
@@ -1581,6 +1581,7 @@ object {
     .site-description {
       display: inline-block;
       font-size: 1.2em;
+      margin-left: 0.3em;
       font-weight: normal;
       -webkit-margin-before: 0.2em;
       -webkit-margin-after: 0.2em;
@@ -1594,6 +1595,10 @@ object {
     header.site-header {
       border-bottom: none;
       padding-bottom: 0;
+    }
+
+    .site-title {
+      font-size: 2em;
     }
 
     #site-navigation {
@@ -1678,6 +1683,7 @@ object {
     }
 
     .post-crests {
+     margin-left: 0;
      padding-right: 0.5em;
     }
 
