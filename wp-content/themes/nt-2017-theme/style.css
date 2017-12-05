@@ -499,9 +499,10 @@ blockquote:before, blockquote:after, q:before, q:after {
 
 .site-title {
   display: inline-block;
+  margin-top: 0.2em;
   font-family: Georgia, Times, 'Times New Roman', serif;
-  color: #36c;
   font-size: 1.8em;
+  color: #36c;
 }
 
 .site-description {
@@ -1599,6 +1600,7 @@ object {
 
     .site-title {
       font-size: 2em;
+      margin: 0.67em 0;
     }
 
     #site-navigation {
