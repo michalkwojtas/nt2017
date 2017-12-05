@@ -390,7 +390,7 @@ div.mobile-menu-bottom {
   height: 1em;
   width: 100%;
   background-color: #bbcdee;
-  border-bottom: solid 1px #36c;
+  border-bottom: solid 1px #0066b2;
   -webkit-box-shadow:inset 0px -2px -0.2px 0px rgba(255, 255, 255, 0.4);
   box-shadow:inset 0px -2px 0px -0.2px rgba(255, 255, 255, 0.4);
 }
@@ -502,7 +502,7 @@ blockquote:before, blockquote:after, q:before, q:after {
   margin-top: 0.2em;
   font-family: Georgia, Times, 'Times New Roman', serif;
   font-size: 1.8em;
-  color: #36c;
+  color: #0066b2;
 }
 
 .site-description {
@@ -515,7 +515,7 @@ blockquote:before, blockquote:after, q:before, q:after {
 
 .widget-title {
   font-family: Georgia, Times, 'Times New Roman', serif;
-  color: #36c;
+  color: #0066b2;
 }
 
 .page-header {
@@ -527,7 +527,7 @@ blockquote:before, blockquote:after, q:before, q:after {
 
 h2.page-title {
   margin: 0;
-  color: #36c;
+  color: #0066b2;
 }
 
 /*--------------------------------------------------------------
@@ -612,8 +612,8 @@ input.searchinput {
   padding-left: 0.4em;
   width: 70%;
   font-style: normal;
-  color: #36c;
-  border: solid 1px #36c;
+  color: #0066b2;
+  border: solid 1px #0066b2;
   -webkit-box-shadow: 1px -2px -0.2px 0px rgba(255, 255, 255, 0.4);
   box-shadow: 1px -2px 0px -0.2px rgba(255, 255, 255, 0.4);
 }
@@ -624,8 +624,8 @@ input.searchsubmit {
  margin: 0;
  font-style: normal;
  color: #fff;
- background-color: #36c;
- border: solid 1px #36c;
+ background-color: #0066b2;
+ border: solid 1px #0066b2;
  border-radius: 3px;
  -webkit-box-shadow: 1px -2px -0.2px 0px rgba(255, 255, 255, 0.4), inset 1px -1px -0.2px 0px rgba(0, 0, 0, 0.1);
  box-shadow: 1px -2px 0px -0.2px rgba(255, 255, 255, 0.4), inset 1px -1px 0px -0.2px rgba(0, 0, 0, 0.1);
@@ -697,7 +697,7 @@ a.more-link {
 
 .nav-links a {
   display: inline-block;
-  background-color: #36c;
+  background-color: #0066b2;
 }
 
 #main.site-main nav.navigation.posts-navigation {
@@ -715,7 +715,7 @@ a.more-link {
 .nav-menu li a {
   display: inline-block;
   padding-right: 10px;
-  color: #36c;
+  color: #0066b2;
   background-color: #bbcdee;
   text-transform: uppercase;
 }
@@ -733,8 +733,8 @@ a.more-link {
   margin-top: -1px;
   background-color: #bbcdee;
   width: 85%;
-  border-right: solid 1px #36c;
-  border-bottom: solid 1px #36c;
+  border-right: solid 1px #0066b2;
+  border-bottom: solid 1px #0066b2;
   border-radius: 0 0 5px 0;
   -webkit-box-shadow:inset 0px -2px -0.2px 0px rgba(255, 255, 255, 0.4);
   box-shadow:inset 0px -2px 0px -0.2px rgba(255, 255, 255, 0.4);
@@ -760,7 +760,7 @@ a.more-link {
   font-style: italic;
   font-size: 1.2em;
   text-align: right;
-  border-bottom: solid 1px #36c;
+  border-bottom: solid 1px #0066b2;
   -webkit-box-shadow:inset 0px -2px -0.2px 0px rgba(255, 255, 255, 0.4);
   box-shadow:inset 0px -2px 0px -0.2px rgba(255, 255, 255, 0.4);
 }
@@ -854,7 +854,7 @@ article.category-zlote-mysli h2.entry-title a {
   font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
   text-transform: uppercase;
   color: #fff;
-  background-color: #36c;
+  background-color: #0066b2;
 }
 
 article.category-zlote-mysli p {
@@ -875,7 +875,7 @@ article.category-zlote-mysli p::after {
   position: relative;
   top: 0.4em;
   padding-right: 0.1em;
-  color: #36c;
+  color: #0066b2;
 }
 
 article.category-zlote-mysli p::after {
@@ -889,7 +889,7 @@ article.category-zlote-mysli div.author {
   font-size: 1em;
   font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
   font-weight: normal;
-  color: #36c;
+  color: #0066b2;
 }
 
 .all-crests {
@@ -1153,7 +1153,7 @@ ul.post-categories li {
 
 ul.post-categories li a {
  display: inline-block;
- background-color: #36c;
+ background-color: #0066b2;
  padding-right: 5px;
  padding-left: 5px;
 }
@@ -1206,7 +1206,7 @@ div.post-thumbnail {
 
 #main div.tags-list a {
   font-size: 0.8em;
-  color: #36c;
+  color: #0066b2;
 }
 
 div.entry-content p goal {
@@ -1282,7 +1282,7 @@ div.team-wrapper div a {
   margin-left: 1px;
   padding: 0.1em 0.2em;
   background-color: #fff;
-  color: #36c;
+  color: #0066b2;
   font-weight: bold;
   border-radius: 3px;
 }
@@ -1300,7 +1300,7 @@ div.entry-content h3.fbcomments {
   font-family: Georgia, Times, 'Times New Roman', serif;
   font-size: 1.5em;
   font-weight: bold;
-  color: #36c;
+  color: #0066b2;
 }
 
 h3.tactics-team-name {
@@ -1320,7 +1320,7 @@ div.team-wrapper.team2 h3.tactics-team-name {
 }
 
 h3.tactics-team-name a {
-  color: #36c;
+  color: #0066b2;
 }
 
 div.team-wrapper.team2 h3.tactics-team-name a {
@@ -1420,7 +1420,7 @@ div.entry-meta span.match-rating {
 .tag-cloud {
   padding: 2em 0 2em 0;
   background-color: #bbcdee;
-  color: #36c;
+  color: #0066b2;
 }
 
 .site-info {
@@ -1428,11 +1428,11 @@ div.entry-meta span.match-rating {
  padding: 1em 0 1em 0;
  background-color: #fff;
  color: #434343;
- border-top: solid 1px #36c;
+ border-top: solid 1px #0066b2;
 }
 
 .site-info a {
- color: #36c;
+ color: #0066b2;
 }
 
 .club-crest {
@@ -1845,9 +1845,9 @@ object {
       margin-left: 0.2em;
       padding: 0.1em 0.3em;
       background-color: #fff;
-      color: #36c;
-      border: solid 1px #36c;
-      border-left: solid 5px #36c;
+      color: #0066b2;
+      border: solid 1px #0066b2;
+      border-left: solid 5px #0066b2;
       font-weight: normal;
       border-radius: 0;
     }
