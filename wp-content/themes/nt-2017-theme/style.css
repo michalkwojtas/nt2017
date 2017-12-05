@@ -366,7 +366,7 @@ th {
 
 .post-crests {
  float:left;
- padding-right: 0.5em;
+ padding-right: 0.3em;
 }
 
 
@@ -1365,7 +1365,7 @@ p.tactics-summary-text span.best-player span.bold {
 
 div.entry-meta span.match-rating {
   margin-left: 0em;
-  font-size: 2em;
+  font-size: 1.8em;
   line-height: 1.3em;
   font-weight: bold;
   font-style: normal;
@@ -1673,6 +1673,10 @@ object {
 
     .entry-meta {
       padding-top: 0.2em;
+    }
+
+    .post-crests {
+     padding-right: 0.5em;
     }
 
     a.more-link,
