@@ -416,7 +416,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .entry-meta {
-  padding-top: 0.2em;
+  padding-top: 0.4em;
 }
 
 h1.entry-title,
@@ -1669,6 +1669,10 @@ object {
     h2.entry-title {
       margin-top: 0.1em;
       font-size: 1.8em;
+    }
+
+    .entry-meta {
+      padding-top: 0.2em;
     }
 
     a.more-link,
