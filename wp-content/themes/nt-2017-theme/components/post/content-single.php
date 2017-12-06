@@ -85,187 +85,83 @@
 								<?php endif; ?>
 							</span>
 							</h3>
-							<div>
-								<?php
+							<div><?php
 								$term = get_field('team1-g');
-								if( $term ): ?>
-								 <a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a>
-								<?php endif; ?>
+								if( $term ): ?><a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a><?php endif; ?>
 							</div>
-							<div>
-								<?php
+							<div><?php
 								$term = get_field('team1-d4');
-								if( $term ): ?>
-								 <a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a>
-								<?php endif; ?>
-								<?php
+								if( $term ): ?><a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a><?php endif; ?><?php
 								$term = get_field('team1-d3');
-								if( $term ): ?>
-								 <a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a>
-								<?php endif; ?>
-								<?php
+								if( $term ): ?><a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a><?php endif; ?><?php
 								$term = get_field('team1-d2');
-								if( $term ): ?>
-								 <a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a>
-								<?php endif; ?>
-								<?php
+								if( $term ): ?><a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a><?php endif; ?><?php
 								$term = get_field('team1-d1');
-								if( $term ): ?>
-								 <a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a>
-								<?php endif; ?>
-							</div>
-							<div>
-								<?php
+								if( $term ): ?><a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a><?php endif; ?></div>
+							<div><?php
 								$term = get_field('team1-dm4');
-								if( $term ): ?>
-								 <a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a>
-								<?php endif; ?>
-								<?php
+								if( $term ): ?><a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a><?php endif; ?><?php
 								$term = get_field('team1-dm3');
-								if( $term ): ?>
-								 <a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a>
-								<?php endif; ?>
-								<?php
+								if( $term ): ?><a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a><?php endif; ?><?php
 								$term = get_field('team1-dm2');
-								if( $term ): ?>
-								 <a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a>
-								<?php endif; ?>
-								<?php
+								if( $term ): ?><a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a><?php endif; ?><?php
 								$term = get_field('team1-dm1');
-								if( $term ): ?>
-								 <a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a>
-								<?php endif; ?>
-							</div>
-							<div>
-								<?php
+								if( $term ): ?><a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a><?php endif; ?></div>
+							<div><?php
 								$term = get_field('team1-am4');
-								if( $term ): ?>
-								 <a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a>
-								<?php endif; ?>
-								<?php
+								if( $term ): ?><a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a><?php endif; ?><?php
 								$term = get_field('team1-am3');
-								if( $term ): ?>
-								 <a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a>
-								<?php endif; ?>
-								<?php
+								if( $term ): ?><a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a><?php endif; ?><?php
 								$term = get_field('team1-am2');
-								if( $term ): ?>
-								 <a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a>
-								<?php endif; ?>
-								<?php
+								if( $term ): ?><a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a><?php endif; ?><?php
 								$term = get_field('team1-am1');
-								if( $term ): ?>
-								 <a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a>
-								<?php endif; ?>
-							</div>
-							<div>
-								<?php
+								if( $term ): ?><a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a><?php endif; ?></div>
+							<div><?php
 								$term = get_field('team1-f3');
-								if( $term ): ?>
-								 <a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a>
-								<?php endif; ?>
-								<?php
+								if( $term ): ?><a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a><?php endif; ?><?php
 								$term = get_field('team1-f2');
-								if( $term ): ?>
-								 <a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a>
-								<?php endif; ?>
-								<?php
+								if( $term ): ?><a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a><?php endif; ?><?php
 								$term = get_field('team1-f1');
-								if( $term ): ?>
-								 <a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a>
-								<?php endif; ?>
+								if( $term ): ?><a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a><?php endif; ?></div>
 							</div>
-						</div>
 						<div class="team-wrapper team2">
-							<div>
-								<?php
+							<div><?php
 								$term = get_field('team2-f1');
-								if( $term ): ?>
-								 <a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a>
-								<?php endif; ?>
-								<?php
+								if( $term ): ?><a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a><?php endif; ?><?php
 								$term = get_field('team2-f2');
-								if( $term ): ?>
-								 <a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a>
-								<?php endif; ?>
-								<?php
+								if( $term ): ?><a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a><?php endif; ?><?php
 								$term = get_field('team2-f3');
-								if( $term ): ?>
-								 <a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a>
-								<?php endif; ?>
-							</div>
-							<div>
-								<?php
+								if( $term ): ?><a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a><?php endif; ?></div>
+							<div><?php
 								$term = get_field('team2-am1');
-								if( $term ): ?>
-								 <a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a>
-								<?php endif; ?>
-								<?php
+								if( $term ): ?><a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a><?php endif; ?><?php
 								$term = get_field('team2-am2');
-								if( $term ): ?>
-								 <a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a>
-								<?php endif; ?>
-								<?php
+								if( $term ): ?><a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a><?php endif; ?><?php
 								$term = get_field('team2-am3');
-								if( $term ): ?>
-								 <a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a>
-								<?php endif; ?>
-								<?php
+								if( $term ): ?><a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a><?php endif; ?><?php
 								$term = get_field('team2-am4');
-								if( $term ): ?>
-								 <a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a>
-								<?php endif; ?>
-							</div>
-							<div>
-								<?php
+								if( $term ): ?><a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a><?php endif; ?></div>
+							<div><?php
 								$term = get_field('team2-dm1');
-								if( $term ): ?>
-								 <a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a>
-								<?php endif; ?>
-								<?php
+								if( $term ): ?><a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a><?php endif; ?><?php
 								$term = get_field('team2-dm2');
-								if( $term ): ?>
-								 <a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a>
-								<?php endif; ?>
-								<?php
+								if( $term ): ?><a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a><?php endif; ?><?php
 								$term = get_field('team2-dm3');
-								if( $term ): ?>
-								 <a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a>
-								<?php endif; ?>
-								<?php
+								if( $term ): ?><a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a><?php endif; ?><?php
 								$term = get_field('team2-dm4');
-								if( $term ): ?>
-								 <a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a>
-								<?php endif; ?>
-							</div>
-							<div>
-								<?php
+								if( $term ): ?><a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a><?php endif; ?></div>
+							<div><?php
 								$term = get_field('team2-d1');
-								if( $term ): ?>
-								 <a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a>
-								<?php endif; ?>
-								<?php
+								if( $term ): ?><a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a><?php endif; ?><?php
 								$term = get_field('team2-d2');
-								if( $term ): ?>
-								 <a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a>
-								<?php endif; ?>
-								<?php
+								if( $term ): ?><a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a><?php endif; ?><?php
 								$term = get_field('team2-d3');
-								if( $term ): ?>
-								 <a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a>
-								<?php endif; ?>
-								<?php
+								if( $term ): ?><a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a><?php endif; ?><?php
 								$term = get_field('team2-d4');
-								if( $term ): ?>
-								 <a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a>
-								<?php endif; ?>
-							</div>
-							<div>
-								<?php
+								if( $term ): ?><a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a><?php endif; ?></div>
+							<div><?php
 								$term = get_field('team2-g');
-								if( $term ): ?>
-								 <a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a>
-								<?php endif; ?>
+								if( $term ): ?><a target="_blank" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a><?php endif; ?>
 							</div>
 						<h3 class="tactics-team-name">
 							<?php

@@ -1278,8 +1278,8 @@ div.team-wrapper div a {
   right: auto;
   -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
-  margin-right: 0;
-  margin-left: 1px;
+  margin-right: 1px;
+  margin-left: 2px;
   padding: 0.1em 0.2em;
   background-color: #fff;
   color: #0066b2;
@@ -1289,6 +1289,11 @@ div.team-wrapper div a {
 
 div.team-wrapper div a:hover {
   margin-left: 0.4em;
+}
+
+div.team-wrapper div:empty,
+div.team-wrapper.team2 div:empty {
+  display: none;
 }
 
 div.team-wrapper.team2 a {
@@ -1841,8 +1846,8 @@ object {
       right: auto;
       -webkit-transition: .3s ease-in-out;
       transition: .3s ease-in-out;
-      margin-right: 0.2em;
-      margin-left: 0.2em;
+      margin-right: 0.3em;
+      margin-left: 0.3em;
       padding: 0.1em 0.3em;
       background-color: #fff;
       color: #0066b2;
@@ -1850,6 +1855,11 @@ object {
       border-left: solid 5px #0066b2;
       font-weight: normal;
       border-radius: 0;
+    }
+
+    div.team-wrapper div a:hover,
+    div.team-wrapper div a a:focus {
+      margin-right: 0em;
     }
 
     .more-link,
