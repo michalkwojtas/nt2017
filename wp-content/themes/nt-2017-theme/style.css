@@ -1709,16 +1709,16 @@ object {
 
     #site-navigation div.menu-menu-1-container ul#top-menu li.menu-item a {
       clear: none;
-      font-size: 1.1em;
+      font-size: 1em;
     }
 
     #top-menu li.search-menu.search-menu.default {
       display: inline-block;
       clear: none;
       float: right;
-      width: 25.3em;
+      width: 23em;
       margin: 0;
-      padding: 0 5em 0 0;
+      padding: 0 5.5em 0 0;
     }
 
     #top-menu li.search-menu.search-menu.default form#searchform {
