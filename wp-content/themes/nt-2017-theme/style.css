@@ -898,11 +898,58 @@ article.category-zlote-mysli div.author {
   text-align: center;
 }
 
-.post-1437 div.entry-content p a {
+.post-1437 div.entry-content p,
+.post-201 div.entry-content p {
   font-size: 1.2em;
   font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.post-1437 div.entry-content p.quote,
+.post-201 div.entry-content p.quote {
+  padding-left: 0;
+}
+
+.post-1437 div.entry-content p.quote::before,
+.post-201 div.entry-content p.quote::before,
+.post-1437 div.entry-content p.quote::after,
+.post-201 div.entry-content p.quote::after {
+  content: "“";
+  font-size: 1.8em;
+  line-height: 0.5em;
+  position: relative;
+  top: 0.4em;
+  padding-right: 0.3em;
+  padding-left: 0em;
   color: #0066b2;
+}
+
+.post-1437 div.entry-content p.quote::after,
+.post-201 div.entry-content p.quote::after {
+  content: "”";
+  padding-right: 0em;
+  padding-left: 0.1em;
+}
+
+.post-1437 div.entry-content p a,
+.post-201 div.entry-content p a  {
+  font-size: 1.2em;
   font-weight: bold;
+  color: #0066b2;
+}
+
+.post-1437 div.entry-content p.quote-comment,
+.post-201 div.entry-content p.quote-comment {
+  font-size: 0.8em;
+  line-height: 0.5em;
+  margin-top: -1em;
+  margin-bottom: 2rem;
+  font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+}
+
+.post-1437 div.entry-content p.standard-styling,
+.post-201 div.entry-content p.standard-styling {
+  font-size: 1em;
+  font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
 }
 
 /*--------------------------------------------------------------
