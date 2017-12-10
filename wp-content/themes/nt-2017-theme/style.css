@@ -953,6 +953,75 @@ article.category-zlote-mysli div.author {
 }
 
 /*--------------------------------------------------------------
+# Dictionary table styling
+--------------------------------------------------------------*/
+
+div#page_slownik {
+  width: 100%;
+  padding: 2em 3em 2em 0;
+}
+
+div#page_slownik table {
+  border: solid 1px #0066b2;
+  margin-bottom: 10px;
+}
+
+div#page_slownik table caption {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: 1.2em;
+  font-family: Georgia;
+	font-style:italic;
+	font-weight:bold;
+  padding: 5px;
+  color: #000000;
+}
+
+div#page_slownik table caption a:hover {
+    margin-left: 0;
+}
+
+div#page_slownik table th {
+  border: solid 1px #0066b2;
+  padding: 5px;
+  width: 20%;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #0066b2;
+}
+
+div#page_slownik table td {
+  border: solid 1px #0066b2;
+  padding: 5px;
+  color: #000000;
+}
+
+div#page_slownik table td#menu {
+  text-align: center;
+}
+
+div#page_slownik table td a {
+  color: #0066b2;
+}
+
+div#page_slownik table td a:hover {
+  text-decoration: underline;
+}
+
+div#page_slownik table tr:hover {
+  background: #bbcdee;
+  color: #0066b2;
+}
+
+div#page_slownik table.wprowadzenie tr:hover {
+  background: #FFFFFF;
+  color: #444444;
+}
+
+/*--------------------------------------------------------------
 # Lists
 --------------------------------------------------------------*/
 ul, ol {
