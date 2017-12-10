@@ -1785,6 +1785,10 @@ object {
       border-right-color: #bbcdee;
     }
 
+    .no-sidebar .site-main {
+      border-style: none;
+    }
+
     .site-content .widget-area {
       float: right;
       overflow: hidden;
