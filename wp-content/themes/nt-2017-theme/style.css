@@ -1196,8 +1196,13 @@ div.post-thumbnail {
   margin: 0 0 1em 0;
 }
 
-#main .post .entry-content p a {
-    display: inline-block;
+#main .post div.entry-content p a {
+  display: inline-block;
+}
+
+div.entry-content p a {
+  color: #0066b2;
+  text-decoration: underline;
 }
 
 #main div.tags-list {
