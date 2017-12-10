@@ -898,6 +898,10 @@ article.category-zlote-mysli div.author {
   text-align: center;
 }
 
+.post-1437 div.entry-content p a {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
 /*--------------------------------------------------------------
 # Lists
 --------------------------------------------------------------*/
