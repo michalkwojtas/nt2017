@@ -516,6 +516,7 @@ blockquote:before, blockquote:after, q:before, q:after {
 .widget-title {
   font-family: Georgia, Times, 'Times New Roman', serif;
   color: #0066b2;
+  text-align: left;
 }
 
 .page-header {
@@ -892,9 +893,8 @@ article.category-zlote-mysli div.author {
   color: #0066b2;
 }
 
-.all-crests {
+#execphp-2 {
   display: block;
-  height: 56em;
   text-align: center;
 }
 
@@ -1923,11 +1923,6 @@ object {
 
     .club-crest {
       margin: 3px;
-    }
-
-    .all-crests {
-      display: block;
-      height: 70em;
     }
 
     .site-footer {
