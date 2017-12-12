@@ -952,6 +952,15 @@ article.category-zlote-mysli div.author {
   font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
 }
 
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
 /*--------------------------------------------------------------
 # Dictionary table styling
 --------------------------------------------------------------*/
