@@ -73,9 +73,16 @@ summary {
 
 article {
   border-style: none none dashed;
+  border-width: 25px;
+  -moz-border-image: url("../nt-2017-theme/assets/images/border-image-8-lines-9-slices-75x75.png") 25 round;
+  -webkit-border-image: url("../nt-2017-theme/assets/images/border-image-8-lines-9-slices-75x75.png") 25 round;
+  -o-border-image: url("../nt-2017-theme/assets/images/border-image-8-lines-9-slices-75x75.png") 25 round;
+  border-image: url("../nt-2017-theme/assets/images/border-image-8-lines-9-slices-75x75.png") 25 round;
+/*
   border-bottom-width: 2px;
   border-bottom-color: #bbcdee;
   padding-top: 1em;
+*/
 }
 
 audio,
@@ -702,8 +709,16 @@ a.more-link {
 }
 
 #main.site-main nav.navigation.posts-navigation {
-  border-bottom: dashed 2px #bbcdee;
+  border-style: none none solid none;
+  border-width: 25px;
+  -moz-border-image: url("../nt-2017-theme/assets/images/border-image-8-lines-9-slices-75x75.png") 25 round;
+  -webkit-border-image: url("../nt-2017-theme/assets/images/border-image-8-lines-9-slices-75x75.png") 25 round;
+  -o-border-image: url("../nt-2017-theme/assets/images/border-image-8-lines-9-slices-75x75.png") 25 round;
+  border-image: url("../nt-2017-theme/assets/images/border-image-8-lines-9-slices-75x75.png") 25 round;
   padding-bottom: 0.5em;
+/*
+  border-bottom: dashed 2px #bbcdee;
+*/
 }
 
 .nav-menu {
@@ -780,9 +795,17 @@ section {
   margin-bottom: 0px;
   padding-right: 1em;
   padding-bottom: 4em;
+  border-style: none none solid;
+  border-width: 25px;
+  -moz-border-image: url("../nt-2017-theme/assets/images/border-image-8-lines-9-slices-75x75.png") 25 round;
+  -webkit-border-image: url("../nt-2017-theme/assets/images/border-image-8-lines-9-slices-75x75.png") 25 round;
+  -o-border-image: url("../nt-2017-theme/assets/images/border-image-8-lines-9-slices-75x75.png") 25 round;
+  border-image: url("../nt-2017-theme/assets/images/border-image-8-lines-9-slices-75x75.png") 25 round;
+/*
   border-style: none none dashed;
   border-bottom-width: 2px;
   border-bottom-color: #bbcdee;
+*/
 }
 
 section ul {
@@ -823,8 +846,16 @@ div.nav-next ::after {
 article.category-zlote-mysli {
   background-color: #bbcdee;
   padding: 1em 1em 1em 0em;
+  border-style: none none solid solid;
+  border-width: 25px;
+  -moz-border-image: url("../nt-2017-theme/assets/images/border-image-8-lines-9-slices-75x75.png") 25 round;
+  -webkit-border-image: url("../nt-2017-theme/assets/images/border-image-8-lines-9-slices-75x75.png") 25 round;
+  -o-border-image: url("../nt-2017-theme/assets/images/border-image-8-lines-9-slices-75x75.png") 25 round;
+  border-image: url("../nt-2017-theme/assets/images/border-image-8-lines-9-slices-75x75.png") 25 round;
+/*
   border-bottom: dashed 2px #fff;
   border-left: dashed 2px #fff;
+*/
 }
 
 article.category-zlote-mysli div.club-crest,
@@ -1901,9 +1932,17 @@ object {
 
     .site-main {
       margin: 0 30% 0 0;
+      border-style: none solid none none;
+      border-width: 25px;
+      -moz-border-image: url("../nt-2017-theme/assets/images/border-image-8-lines-9-slices-75x75.png") 25 round;
+      -webkit-border-image: url("../nt-2017-theme/assets/images/border-image-8-lines-9-slices-75x75.png") 25 round;
+      -o-border-image: url("../nt-2017-theme/assets/images/border-image-8-lines-9-slices-75x75.png") 25 round;
+      border-image: url("../nt-2017-theme/assets/images/border-image-8-lines-9-slices-75x75.png") 25 round;
+/*
       border-style: none dashed none none;
       border-right-width: 2px;
       border-right-color: #bbcdee;
+*/
     }
 
     .no-sidebar .site-main {
