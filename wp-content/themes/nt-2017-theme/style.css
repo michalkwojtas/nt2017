@@ -1196,11 +1196,15 @@ table {
   }
 }
 .site-main .comment-navigation, .site-main
-.posts-navigation, .site-main
-.post-navigation {
+.posts-navigation, .site-main {
   margin: 0 0 1.5em;
   overflow: hidden;
 }
+
+.post-navigation{
+  margin-bottom: 0;
+}
+
 .comment-navigation .nav-previous,
 .posts-navigation .nav-previous,
 .post-navigation .nav-previous {
@@ -1593,6 +1597,12 @@ div.entry-meta span.match-rating {
   padding: 2em 0 2em 0;
   background-color: #bbcdee;
   color: #0066b2;
+  border-style: solid none none none;
+  border-width: 25px;
+  -moz-border-image: url("../nt-2017-theme/assets/images/border-image-8-lines-9-slices-75x75.png") 25 round;
+  -webkit-border-image: url("../nt-2017-theme/assets/images/border-image-8-lines-9-slices-75x75.png") 25 round;
+  -o-border-image: url("../nt-2017-theme/assets/images/border-image-8-lines-9-slices-75x75.png") 25 round;
+  border-image: url("../nt-2017-theme/assets/images/border-image-8-lines-9-slices-75x75.png") 25 round;
 }
 
 .site-info {
