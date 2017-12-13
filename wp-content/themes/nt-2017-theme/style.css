@@ -79,6 +79,10 @@ article {
   -o-border-image: url("../nt-2017-theme/assets/images/border-image-8-lines-9-slices-75x75.png") 25 round;
   border-image: url("../nt-2017-theme/assets/images/border-image-8-lines-9-slices-75x75.png") 25 round;
 /*
+  inner shadow lines not to use for the moment
+  box-shadow: -1px -1px 0px #bbcdee inset;
+*/
+/*
   border-bottom-width: 2px;
   border-bottom-color: #bbcdee;
   padding-top: 1em;
@@ -846,7 +850,7 @@ div.nav-next ::after {
 article.category-zlote-mysli {
   background-color: #bbcdee;
   padding: 1em 1em 1em 0em;
-  border-style: none none solid solid;
+  border-style: none none solid none;
   border-width: 25px;
   -moz-border-image: url("../nt-2017-theme/assets/images/border-image-8-lines-9-slices-75x75.png") 25 round;
   -webkit-border-image: url("../nt-2017-theme/assets/images/border-image-8-lines-9-slices-75x75.png") 25 round;
