@@ -382,7 +382,6 @@ th {
  padding-right: 0.3em;
 }
 
-
 #masthead div {
   padding-left: 1em;
   padding-right: 15%;
@@ -1598,6 +1597,7 @@ div.entry-meta span.match-rating {
   padding: 2em 0 2em 0;
   background-color: #bbcdee;
   color: #0066b2;
+  text-align: center;
   border-style: solid none none none;
   border-width: 25px;
   -moz-border-image: url("../nt-2017-theme/assets/images/border-image-8-lines-9-slices-75x75.png") 25 round;
@@ -1609,13 +1609,12 @@ div.entry-meta span.match-rating {
 .site-info {
  text-align: center;
  padding: 1em 0 1em 0;
- background-color: #fff;
- color: #434343;
- border-top: solid 1px #0066b2;
+ background-color: #0066b2;
+ color: #bbcdee;
 }
 
 .site-info a {
- color: #0066b2;
+ color: #fff;
 }
 
 .club-crest {
