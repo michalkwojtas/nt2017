@@ -1,0 +1,29 @@
+/**
+ * CSS for the public-facing functionality.
+ */
+
+.wgpag-pagination a,
+.wgpag-pagination span {
+	padding: 0.1em 0.5em;
+	border: 1px solid #F1F1F1;
+	margin: 0 0.1em;
+}
+
+.wgpag-pagination a,
+.wgpag-pagination a:hover {
+	text-decoration: none;
+}
+
+.wgpag-current {
+	font-weight: bold;
+}
+
+.wgpag-current.wgpag-prev,
+.wgpag-current.wgpag-next {
+	visibility: hidden;
+}
+
+.wgpag-pagination .wgpag-separator {
+	background-color: transparent;
+	border: 0 none;
+}

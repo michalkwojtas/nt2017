@@ -1,0 +1,548 @@
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Widget Paginator\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-02-05 14:20+0100\n"
+"PO-Revision-Date: 2012-03-26 18:16+0200\n"
+"X-Poedit-Language: Romanian\n"
+"X-Poedit-Country: Romania\n"
+"Language-Team: Web Geeks\n"
+"Last-Translator: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: D:\\WEB\\wordpress\\wordpress_pagination\\wordpress\\wp-content\\plugins\\widget-pagination\n"
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options
+#: - Kopie (2).php:4
+#: Kopie.php:4
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:4
+msgid "Settings"
+msgstr "Setări"
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options
+#: - Kopie (2).php:8
+#: Kopie.php:8
+#, php-format
+msgid "Before you can see a paginated list of %s, %s, %s, %s, %s or %s, you need to add them as %s to your widget areas."
+msgstr "Înainte de a vă puteţi vedea o lista de paginat de % s, % s, % s, % s, %s sau % s, trebuie să adăugaţi-le ca %s dumneavoastră zonele widget."
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options
+#: - Kopie (2).php:9
+#: Kopie.php:9
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:11
+msgid "Links"
+msgstr "Link-uri"
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options
+#: - Kopie (2).php:10
+#: Kopie.php:10
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:10
+msgid "Categories"
+msgstr "Categorii"
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options
+#: - Kopie (2).php:11
+#: Kopie.php:11
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:15
+msgid "Recent Posts"
+msgstr "Recent Posts"
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options
+#: - Kopie (2).php:12
+#: Kopie.php:12
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:14
+msgid "Recent Comments"
+msgstr "Comentarii recente"
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options
+#: - Kopie (2).php:13
+#: Kopie.php:13
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:9
+msgid "Archives"
+msgstr "Arhivele"
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options
+#: - Kopie (2).php:14
+#: Kopie.php:14
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:12
+msgid "Meta"
+msgstr "Meta"
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options
+#: - Kopie (2).php:15
+#: Kopie.php:15
+msgid "Widgets"
+msgstr "Widget-uri"
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options
+#: - Kopie (2).php:20
+#: Kopie.php:20
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:21
+msgid "Default"
+msgstr "Implicit"
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options
+#: - Kopie (2).php:21
+#: (2).php:193
+#: Kopie.php:21
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:22
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:171
+msgid "empty"
+msgstr "gol"
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options
+#: - Kopie (2).php:42
+#: (2).php:463
+#: Kopie.php:44
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:43
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:441
+msgid "Items per Page"
+msgstr "Elemente pe pagină"
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options
+#: - Kopie (2).php:44
+#: Kopie.php:46
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:45
+msgid "If you want a pagination, enter the designated items per page for each widget. Otherwise, leave it emtpy."
+msgstr "Dacă doriţi o paginare, introduceţi elementele desemnat pe pagină pentru fiecare widget. Altfel, lăsaţi-l emtpy."
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options
+#: - Kopie (2).php:74
+msgid "Chose"
+msgstr "Ales"
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options
+#: - Kopie (2).php:87
+msgid "The one you need is missing? Let us <a href=\"http://wgpag.jana-sieber.de/supported-widgets/\">know</a>!"
+msgstr "Aveţi nevoie de un lipseşte? Să ne <a href=\"http://wgpag.jana-sieber.de/supported-widgets/\"> stiu </a>!"
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options
+#: - Kopie (2).php:92
+#: Kopie.php:74
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:70
+msgid "Pagination Options"
+msgstr "Opţiuni de paginaţie"
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options
+#: - Kopie (2).php:94
+#: Kopie.php:76
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:72
+msgid "Here you can change the defaults for how the pagination is returned."
+msgstr "Aici aveţi posibilitatea să modificaţi implicite pentru cum pagination este returnat."
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options
+#: - Kopie (2).php:99
+#: (2).php:468
+#: Kopie.php:81
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:77
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:446
+msgid "Max. pagination items"
+msgstr "Max. articole de paginare"
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options
+#: - Kopie (2).php:112
+#: Kopie.php:94
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:90
+msgid "Previous label"
+msgstr "Eticheta anterioare"
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options
+#: - Kopie (2).php:119
+#: (2).php:132
+#: (2).php:181
+#: (2).php:268
+#: Kopie.php:101
+#: Kopie.php:114
+#: Kopie.php:216
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:97
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:110
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:159
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:246
+msgid "e.g."
+msgstr "exemplu"
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options
+#: - Kopie (2).php:119
+#: (2).php:132
+#: (2).php:181
+#: (2).php:268
+#: Kopie.php:101
+#: Kopie.php:114
+#: Kopie.php:216
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:97
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:110
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:159
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:246
+msgid "or"
+msgstr "sau"
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options
+#: - Kopie (2).php:125
+#: Kopie.php:107
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:103
+msgid "Next label"
+msgstr "Următoarea etichetă"
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options
+#: - Kopie (2).php:138
+#: Kopie.php:120
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:116
+msgid "Horizontal alignment"
+msgstr "Alinierea orizontală"
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options
+#: - Kopie (2).php:150
+#: Kopie.php:130
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:128
+msgid "left"
+msgstr "stânga"
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options
+#: - Kopie (2).php:158
+#: (2).php:168
+#: Kopie.php:135
+#: Kopie.php:141
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:136
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:146
+msgid "center"
+msgstr "Centrul de"
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options
+#: - Kopie (2).php:166
+#: Kopie.php:140
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:144
+msgid "right"
+msgstr "dreptul de"
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options
+#: - Kopie (2).php:174
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:152
+msgid "Top margin"
+msgstr "Margine superioară"
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options
+#: - Kopie (2).php:186
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:164
+msgid "Bottom margin"
+msgstr "Marginea inferioară"
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options
+#: - Kopie (2).php:204
+#: Kopie.php:152
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:182
+msgid "Save Changes"
+msgstr "Salvaţi modificările"
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options
+#: - Kopie (2).php:213
+#: Kopie.php:161
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:191
+msgid "Styling Options"
+msgstr "Opţiuni de stil"
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options
+#: - Kopie (2).php:215
+#: Kopie.php:163
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:193
+msgid "If you want to change the appearance of the pagination, enter the designated value. Otherwise, leave it emtpy."
+msgstr "Dacă doriţi să modificaţi aspectul de paginare, introduceţi valoarea desemnate. Altfel, lăsaţi-l emtpy."
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options
+#: - Kopie (2).php:217
+#: (2).php:473
+#: Kopie.php:165
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:195
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:451
+msgid "Current pagination item"
+msgstr "Articolul pagination curent"
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options
+#: - Kopie (2).php:222
+#: (2).php:278
+#: (2).php:334
+#: Kopie.php:170
+#: Kopie.php:226
+#: Kopie.php:282
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:200
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:256
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:312
+msgid "Text colour"
+msgstr "Culoarea textului"
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options
+#: - Kopie (2).php:230
+#: (2).php:268
+#: (2).php:286
+#: (2).php:324
+#: (2).php:342
+#: (2).php:355
+#: (2).php:368
+#: (2).php:380
+#: (2).php:398
+#: (2).php:412
+#: Kopie.php:178
+#: Kopie.php:216
+#: Kopie.php:234
+#: Kopie.php:272
+#: Kopie.php:290
+#: Kopie.php:303
+#: Kopie.php:316
+#: Kopie.php:328
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:208
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:246
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:264
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:302
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:320
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:333
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:346
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:358
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:376
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:390
+msgid "from theme"
+msgstr "la tema"
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options
+#: - Kopie (2).php:235
+#: (2).php:291
+#: (2).php:347
+#: Kopie.php:183
+#: Kopie.php:239
+#: Kopie.php:295
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:213
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:269
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:325
+msgid "Border colour"
+msgstr "Culoare bordură"
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options
+#: - Kopie (2).php:243
+#: (2).php:312
+#: Kopie.php:191
+#: Kopie.php:260
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:221
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:290
+msgid "transparent"
+msgstr "transparent"
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options
+#: - Kopie (2).php:248
+#: (2).php:304
+#: (2).php:360
+#: Kopie.php:196
+#: Kopie.php:252
+#: Kopie.php:308
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:226
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:282
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:338
+msgid "Background colour"
+msgstr "Culoare de fundal"
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options
+#: - Kopie (2).php:261
+#: (2).php:317
+#: (2).php:373
+#: Kopie.php:209
+#: Kopie.php:265
+#: Kopie.php:321
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:239
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:295
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:351
+msgid "Font size"
+msgstr "Dimensiunea fontului"
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options
+#: - Kopie (2).php:273
+#: (2).php:478
+#: Kopie.php:221
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:251
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:456
+msgid "Linked pagination items"
+msgstr "Articole legate de paginare"
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options
+#: - Kopie (2).php:329
+#: (2).php:483
+#: Kopie.php:277
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:307
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:461
+msgid "Mouseover on linked pagination items"
+msgstr "Mouseover pe elemente legate de paginare"
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options
+#: - Kopie (2).php:385
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:363
+msgid "List Items"
+msgstr "Elementele listei"
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options
+#: - Kopie (2).php:390
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:368
+msgid "List style type"
+msgstr "Tipul de lista de stil"
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options
+#: - Kopie (2).php:402
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:380
+msgid "Square"
+msgstr "Pătrat"
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options
+#: - Kopie (2).php:406
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:384
+msgid "Disc"
+msgstr "Disc"
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options
+#: - Kopie (2).php:410
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:388
+msgid "Circle"
+msgstr "Cerc"
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options
+#: - Kopie (2).php:423
+#: Kopie.php:339
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:401
+msgid "Contact the Plugin Developers"
+msgstr "Dezvoltatorii de plugin-ul de contact"
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options
+#: - Kopie (2).php:426
+#: Kopie.php:342
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:404
+msgid "You have a question, want to report a bug, help translating, or suggest a feature"
+msgstr "Aveţi o întrebare, doriţi să raportaţi un bug, ajuta la traducerea, sau sugerează o caracteristică"
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options
+#: - Kopie (2).php:435
+#: Kopie.php:353
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:413
+msgid "Theme Compatibility"
+msgstr "Tema de compatibilitate"
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options
+#: - Kopie (2).php:438
+#: Kopie.php:356
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:416
+msgid "This plugin might not work in custom themes, if the lists are generated in a different way than in the standard wordpress themes. We are working on increasing the compatibility of this plugin. Feel free to drop us a link to your theme or your page."
+msgstr "Acest plug-in nu ar putea să funcţioneze în teme personalizate, dacă listele sunt generate în mod diferit decât în teme standard wordpress. Suntem de lucru pe creşterea compatibilitatea acest plug-in. Simţiţi-vă liber să drop-ne un link la tema sau pagina Dvs."
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options
+#: - Kopie (2).php:441
+#: Kopie.php:359
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:419
+msgid "Note for Developers"
+msgstr "Notă pentru dezvoltatori"
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options
+#: - Kopie (2).php:444
+#: Kopie.php:362
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:422
+#, php-format
+msgid "If you are using %s, just set the parameter *class* to *widget_links*. Meanwhile, we are working on a solution for %s."
+msgstr "Dacă utilizaţi % s, doar setaţi parametrul * clasa * la * widget_links *. Între timp, lucrăm la o soluţie pentru % s."
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options
+#: - Kopie (2).php:452
+#: (2).php:456
+#: Kopie.php:370
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:430
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:434
+msgid "Legend"
+msgstr "Legenda"
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options
+#: - Kopie (2).php:457
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:435
+msgid "screenshot of paginated links widget"
+msgstr "screenshot de paginat link-uri widget"
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options
+#: - Kopie (2).php:459
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:437
+msgid "The image shows the 1st page of a paginated links widget, with 2 items per page and a max. number of 4 pages to show."
+msgstr "Imaginea se afişează pe pagina 1 a un widget de paginat link-uri, cu 2 elemente pe pagină şi o max. numărul de 4 pagini pentru a arăta."
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options
+#: - Kopie (2).php:465
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:443
+msgid "This number distributes all widget links on x pages, so that you see this number of links on each of the pages. (e.g. 2)"
+msgstr "Acest număr distribuie toate legăturile widget pe x pagini, astfel încât să vedeţi acest număr de link-uri pe fiecare pagină. (de exemplu, 2)"
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options
+#: - Kopie (2).php:470
+#: Kopie.php:381
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:448
+msgid "Maximum number of pages shown in the pagination. If there are more pages, a separator (…) is shown."
+msgstr "Numărul maxim de pagini în paginaţie. Dacă există mai multe pagini, un separator (…) este indicat."
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options
+#: - Kopie (2).php:475
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:453
+msgid "The currently open page number (hence not a link)."
+msgstr "Numărul de pagină în prezent deschise (prin urmare, nu un link)."
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options
+#: - Kopie (2).php:480
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:458
+msgid "The page numbers and the previous/next links."
+msgstr "Numerele de pagină şi link-uri anterior/următor."
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options
+#: - Kopie (2).php:486
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:464
+msgid "px/em units"
+msgstr "px/em unități"
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options
+#: - Kopie (2).php:488
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:466
+msgid "If you want to set fixed font sizes or margins, use the absolute, theme-independent unit px. If you want them to depend on your theme though, use the relative unit em. (1em corresponds to 100% resp. 1 line)"
+msgstr "Dacă doriţi să setaţi dimensiunile fontului fixe sau margini, utilizaţi unitatea absolută, independent de tema px. Dacă doriţi să depinde de tema deşi, utilizaţi em unitate relativă. (1em corespunde la 100% resp. 1 linie)"
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:8
+#, php-format
+msgid "Before you can see the widgets %s, %s, %s, %s, %s, %s or %s as a paginated list, you need to add them to your %s."
+msgstr "Înainte să vedeţi widget-uri % s, % s, % s, % s, % s, %s sau %s ca o lista de paginat, trebuie să le adăugaţi la dumneavoastră % s."
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:13
+msgid "Pages"
+msgstr "Pagini"
+
+#: D:\WEB\wordpress\wordpress_pagination\wordpress\wp-content\plugins\widget-pagination/inc/wgpag-options.php:16
+msgid "Widget Areas"
+msgstr "Zonele widget"
+
+#, fuzzy
+#~ msgid "from Theme"
+#~ msgstr "la tema"
+
+#, fuzzy
+#~ msgid ""
+#~ "Maximum number of pages shown in the pagination.\n"
+#~ "                    If there are more pages, a separator (…) is "
+#~ "shown."
+#~ msgstr ""
+#~ "Maximale Anzahl der Seiten, die in der Nummerierung angezeigt werden. "
+#~ "Gibt es mehr, wird ein Separator (…) angezeigt."
+
+#~ msgid "Pages to show"
+#~ msgstr "Pagini pentru a afişa"
+
+#, fuzzy
+#~ msgid "Animation duration"
+#~ msgstr "Durata animaţiei"
+
+#~ msgid "in ms"
+#~ msgstr "în ms"
+
+#~ msgid "0 for no animation"
+#~ msgstr "0 pentru nici o animaţie"
+
+#, fuzzy
+#~ msgid "leer"
+#~ msgstr "Leer"
