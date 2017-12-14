@@ -1650,6 +1650,10 @@ div.page-content div.widget {
   font-style: normal;
 }
 
+#archives-2 {
+  border-bottom: none;
+}
+
 /*--------------------------------------------------------------
 # Infinite scroll
 --------------------------------------------------------------*/
