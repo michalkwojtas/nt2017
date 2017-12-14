@@ -74,6 +74,7 @@ summary {
 article {
   border-style: none none dashed;
   border-width: 25px;
+  padding-top: 1em;
   -moz-border-image: url("../nt-2017-theme/assets/images/border-image-8-lines-9-slices-75x75.png") 25 round;
   -webkit-border-image: url("../nt-2017-theme/assets/images/border-image-8-lines-9-slices-75x75.png") 25 round;
   -o-border-image: url("../nt-2017-theme/assets/images/border-image-8-lines-9-slices-75x75.png") 25 round;
