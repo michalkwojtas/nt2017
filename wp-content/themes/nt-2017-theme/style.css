@@ -1640,6 +1640,11 @@ div.page-content div.widget {
   padding-left: 0;
 }
 
+#archives-2 div a.wgpag.wgpag-next,
+#archives-2 div a.wgpag.wgpag-prev {
+  font-style: normal;
+}
+
 /*--------------------------------------------------------------
 # Infinite scroll
 --------------------------------------------------------------*/
