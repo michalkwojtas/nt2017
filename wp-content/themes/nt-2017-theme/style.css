@@ -539,7 +539,7 @@ blockquote:before, blockquote:after, q:before, q:after {
 }
 
 h2.page-title {
-  margin: 0;
+  margin: 0 0 1em 0;
   color: #0066b2;
 }
 
