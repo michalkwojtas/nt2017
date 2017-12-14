@@ -704,7 +704,13 @@ div.nav-previous a {
 }
 
 a.more-link {
-  padding: 0.5em 1em;
+  padding: 0.25em 0.5em;
+  border-style: solid none solid solid;
+  border-width: 8px;
+  -moz-border-image: url("../nt-2017-theme/assets/images/border-image-8-lines-9-slices-41x41-black.png") 8 round;
+  -webkit-border-image: url("../nt-2017-theme/assets/images/border-image-8-lines-9-slices-41x41-black.png") 8 round;
+  -o-border-image: url("../nt-2017-theme/assets/images/border-image-8-lines-9-slices-41x41-black.png") 8 round;
+  border-image: url("../nt-2017-theme/assets/images/border-image-8-lines-9-slices-41x41-black.png") 8 round;
 }
 
 .nav-links a {
@@ -1895,6 +1901,7 @@ object {
       transition: .3s ease-in-out;
       padding-top: 0;
       padding-bottom: 0;
+      border-style: none;
     }
 
     .nav-links {
