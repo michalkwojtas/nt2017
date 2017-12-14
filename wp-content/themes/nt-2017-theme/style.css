@@ -1640,6 +1640,11 @@ div.page-content div.widget {
   padding-left: 0;
 }
 
+#archives-2 div.wgpag-pagination a.wgpag,
+#archives-2 div.wgpag-pagination span.wgpag-current {
+  padding: 0.5em 1em;
+}
+
 #archives-2 div a.wgpag.wgpag-next,
 #archives-2 div a.wgpag.wgpag-prev {
   font-style: normal;
@@ -2075,6 +2080,15 @@ object {
       font-size: 1em;
       padding: 0;
       text-align: left;
+    }
+
+    #archives-2 div.wgpag-pagination {
+      text-align: left !important;
+    }
+
+    #archives-2 div.wgpag-pagination a.wgpag,
+    #archives-2 div.wgpag-pagination span.wgpag-current {
+      padding: 0.1em 0.5em;
     }
 
     #main section div div {
