@@ -729,7 +729,7 @@ a.more-link {
   background-color: #0066b2;
 }
 
-#main.site-main nav.navigation.posts-navigation {
+#main nav {
   border-style: none none solid none;
   border-width: 25px;
   -moz-border-image: url("../nt-2017-theme/assets/images/border-image-8-lines-9-slices-75x75.png") 25 round;
@@ -737,9 +737,15 @@ a.more-link {
   -o-border-image: url("../nt-2017-theme/assets/images/border-image-8-lines-9-slices-75x75.png") 25 round;
   border-image: url("../nt-2017-theme/assets/images/border-image-8-lines-9-slices-75x75.png") 25 round;
   padding-bottom: 0.5em;
-/*
-  border-bottom: dashed 2px #bbcdee;
-*/
+}
+
+#main nav:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
 }
 
 .nav-menu {
@@ -1225,12 +1231,8 @@ table {
 }
 .site-main .comment-navigation, .site-main
 .posts-navigation, .site-main {
-  margin: 0 0 1.5em;
+  margin: 0 0 0.5em 0;
   overflow: hidden;
-}
-
-.post-navigation{
-  margin-bottom: 0;
 }
 
 .comment-navigation .nav-previous,
