@@ -812,7 +812,7 @@ a.more-link {
 section {
   margin-bottom: 0px;
   padding-right: 1em;
-  padding-bottom: 4em;
+  padding-bottom: 1.5em;
   border-style: none none solid;
   border-width: 25px;
   -moz-border-image: url("../nt-2017-theme/assets/images/border-image-8-lines-9-slices-75x75.png") 25 round;
@@ -2092,6 +2092,10 @@ object {
 
     aside .widget {
       margin: 4em 0;
+    }
+
+    section {
+      padding-bottom: 4em;
     }
 
     #archives-2 ul li {
