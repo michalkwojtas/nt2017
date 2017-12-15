@@ -518,7 +518,7 @@ blockquote:before, blockquote:after, q:before, q:after {
 .widget-title {
   font-family: Georgia, Times, 'Times New Roman', serif;
   color: #0066b2;
-  text-align: left;
+  text-align: center;
 }
 
 .page-header {
@@ -2092,6 +2092,10 @@ object {
 
     aside .widget {
       margin: 4em 0;
+    }
+
+    .widget-title {
+      text-align: left;
     }
 
     section {
