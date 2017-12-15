@@ -703,6 +703,23 @@ div.nav-previous a {
   padding: 0.5em;
 }
 
+div.nav-next a,
+div.nav-previous a {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+div.nav-next a {
+  text-align: right;
+  justify-content: flex-end;
+}
+
+div.nav-previous a {
+  text-align: left;
+  justify-content: flex-start;
+}
+
 a.more-link {
   padding: 0.5em 1em;
 }
@@ -833,6 +850,14 @@ div.nav-previous,
 div.nav-next {
 padding-top: 0.5em;
 padding-bottom: 0.5em;
+}
+
+div.nav-previous {
+  padding-right: 1em;
+}
+
+div.nav-next {
+  padding-left: 1em;
 }
 
 div.nav-previous ::before,
@@ -1895,6 +1920,13 @@ object {
       transition: .3s ease-in-out;
       padding-top: 0;
       padding-bottom: 0;
+      border-style: none;
+    }
+
+    div.nav-next a,
+    div.nav-previous a {
+      display: inline-block;
+      width: auto;
     }
 
     .nav-links {
