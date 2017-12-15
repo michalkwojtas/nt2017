@@ -72,22 +72,13 @@ summary {
 }
 
 article {
-  border-style: none none dashed;
+  border-style: none none solid;
   border-width: 25px;
   padding-top: 1em;
   -moz-border-image: url("../nt-2017-theme/assets/images/border-image-8-lines-9-slices-75x75.png") 25 round;
   -webkit-border-image: url("../nt-2017-theme/assets/images/border-image-8-lines-9-slices-75x75.png") 25 round;
   -o-border-image: url("../nt-2017-theme/assets/images/border-image-8-lines-9-slices-75x75.png") 25 round;
   border-image: url("../nt-2017-theme/assets/images/border-image-8-lines-9-slices-75x75.png") 25 round;
-/*
-  inner shadow lines not to use for the moment
-  box-shadow: -1px -1px 0px #bbcdee inset;
-*/
-/*
-  border-bottom-width: 2px;
-  border-bottom-color: #bbcdee;
-  padding-top: 1em;
-*/
 }
 
 audio,
@@ -828,11 +819,6 @@ section {
   -webkit-border-image: url("../nt-2017-theme/assets/images/border-image-8-lines-9-slices-75x75.png") 25 round;
   -o-border-image: url("../nt-2017-theme/assets/images/border-image-8-lines-9-slices-75x75.png") 25 round;
   border-image: url("../nt-2017-theme/assets/images/border-image-8-lines-9-slices-75x75.png") 25 round;
-/*
-  border-style: none none dashed;
-  border-bottom-width: 2px;
-  border-bottom-color: #bbcdee;
-*/
 }
 
 section ul {
@@ -890,10 +876,6 @@ article.category-zlote-mysli {
   -webkit-border-image: url("../nt-2017-theme/assets/images/border-image-8-lines-9-slices-75x75.png") 25 round;
   -o-border-image: url("../nt-2017-theme/assets/images/border-image-8-lines-9-slices-75x75.png") 25 round;
   border-image: url("../nt-2017-theme/assets/images/border-image-8-lines-9-slices-75x75.png") 25 round;
-/*
-  border-bottom: dashed 2px #fff;
-  border-left: dashed 2px #fff;
-*/
 }
 
 article.category-zlote-mysli div.club-crest,
@@ -2003,11 +1985,6 @@ object {
       -webkit-border-image: url("../nt-2017-theme/assets/images/border-image-8-lines-9-slices-75x75.png") 25 round;
       -o-border-image: url("../nt-2017-theme/assets/images/border-image-8-lines-9-slices-75x75.png") 25 round;
       border-image: url("../nt-2017-theme/assets/images/border-image-8-lines-9-slices-75x75.png") 25 round;
-/*
-      border-style: none dashed none none;
-      border-right-width: 2px;
-      border-right-color: #bbcdee;
-*/
     }
 
     .no-sidebar .site-main {
