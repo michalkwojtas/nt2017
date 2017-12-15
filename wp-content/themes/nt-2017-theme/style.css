@@ -853,11 +853,11 @@ padding-bottom: 0.5em;
 }
 
 div.nav-previous {
-  padding-right: 1em;
+  padding-right: 0.5em;
 }
 
 div.nav-next {
-  padding-left: 1em;
+  padding-left: 0.5em;
 }
 
 div.nav-previous ::before,
@@ -866,10 +866,13 @@ div.nav-next ::after {
   font-size: 1.3em;
   line-height: 1em;
   font-style: normal;
+  padding-right: 0.25em;
 }
 
 div.nav-next ::after {
   content: " ▶";
+  padding-left: 0.25em;
+  padding-right: 0;
 }
 
 article.category-zlote-mysli {
