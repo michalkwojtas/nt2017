@@ -1435,7 +1435,7 @@ div.entry-content p goal {
 div.tactics-wrapper {
   padding: 0em;
   margin: 1em 0em;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .team-wrapper {
@@ -1466,8 +1466,11 @@ div.team-wrapper div a {
   padding: 0.1em 0.2em;
   background-color: #fff;
   color: #0066b2;
-  font-weight: bold;
   border-radius: 3px;
+}
+
+div.team-wrapper div a span.first {
+  display: none;
 }
 
 div.team-wrapper div a:hover {
@@ -1496,7 +1499,7 @@ h3.tactics-team-name {
   margin-bottom: 10px;
   padding-left: 10px;
   color: #fff;
-  font-size: 1em;
+  font-size: 14px;
   font-weight: 400;
   text-align: center;
 }
@@ -2075,6 +2078,10 @@ object {
       font-size: 1rem;
     }
 
+    h3.tactics-team-name {
+      font-size: 1em;
+    }
+
     div.team-wrapper div a {
       display: inline-block;
       left: auto;
@@ -2090,6 +2097,10 @@ object {
       border-left: solid 5px #0066b2;
       font-weight: normal;
       border-radius: 0;
+    }
+
+    div.team-wrapper div a span.first {
+      display: inline-block;
     }
 
     div.team-wrapper div a:hover,

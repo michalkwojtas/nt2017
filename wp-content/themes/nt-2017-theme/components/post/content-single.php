@@ -8,6 +8,18 @@
  */
 
 ?>
+<script>
+jQuery(function($){
+
+	// First word in player's name in tactic to be enclosed in span for styling
+	$('div.team-wrapper div a' || 'div.team-wrapper.team2 a').html(function(){
+		var text = $(this).text().split(' ');
+		var first = text.shift();
+		return (text.length > 0 ? '<span class="first">'+first+'</span> ' : first) + text.join(" ");
+	});
+
+});
+</script>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
 		<div class="post-crests">
