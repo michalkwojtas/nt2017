@@ -15,7 +15,7 @@
 get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-
+			<div id="equal-heights-main">
 		<?php
 		if ( have_posts() ) :
 
@@ -45,7 +45,7 @@ get_header(); ?>
 			get_template_part( 'components/post/content', 'none' );
 
 		endif; ?>
-
+			</div>
 		</main>
 	</div>
 <?php
