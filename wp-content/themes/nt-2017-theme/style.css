@@ -1931,6 +1931,10 @@ object {
       padding-bottom: 0;
     }
 
+    #main nav {
+      border-style: none;
+    }
+
     div.entry-meta span.match-rating {
       margin-left: 0.4em;
       margin-top: 0;
