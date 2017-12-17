@@ -2116,8 +2116,12 @@ object {
 
     div.nav-previous,
     div.nav-next {
-    padding-top: 1.5em;
-    padding-bottom: 2.5em;
+      padding-top: 1.5em;
+      padding-bottom: 2.5em;
+    }
+
+    article.page.type-page {
+      border-bottom: none;
     }
 
     .widget {
