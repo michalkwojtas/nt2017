@@ -1619,14 +1619,20 @@ div.entry-meta span.match-rating {
 }
 
 .site-info {
- text-align: center;
- padding: 1em 0 1em 0;
- background-color: #0066b2;
- color: #bbcdee;
+  text-align: center;
+  padding: 1em 0 1em 0;
+  background-color: #0066b2;
+  color: #bbcdee;
 }
 
 .site-info a {
  color: #fff;
+}
+
+span.sep {
+  display: block;
+  line-height: 0;
+  visibility: hidden;
 }
 
 .club-crest {
@@ -2017,6 +2023,11 @@ object {
       padding-right: 5em;
     }
 
+    span.sep {
+      display: inline;
+      visibility: visible;
+    }
+    
     .page-header {
       padding-left: 5em;
     }
