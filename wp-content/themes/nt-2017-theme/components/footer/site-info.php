@@ -12,7 +12,7 @@
 <div class="site-info">
 	<a target="_blank" href="<?php echo esc_url( __( 'https://wordpress.org/', 'niecelnetrafienie-2017' ) ); ?>"><?php printf( esc_html__( 'Strona oparta o %s', 'niecelnetrafienie-2017' ), 'WordPress' ); ?></a>
 	<span class="sep"> | </span>
-	<?php printf( esc_html__( 'Szablon przygotowany przez %2$s', 'niecelnetrafienie-2017' ), 'Niecelnetrafienie 2017', '<a href="http://automattic.com/" rel="designer" target="_blank">Automattic</a> i <a href="http://michalwojtas.pl/" rel="designer" target="_blank">Michała Wojtasa</a>' ); ?>
+	<?php printf( esc_html__( 'Autorzy szablonu: %2$s', 'niecelnetrafienie-2017' ), 'Niecelnetrafienie 2017', '<a href="http://automattic.com/" rel="designer" target="_blank">Automattic</a> i <a href="http://michalwojtas.pl/" rel="designer" target="_blank">Michał Wojtas</a>' ); ?>
   <span class="sep"> | </span>
 	© 2009-2017 Michał Wojtas
 </div><!-- .site-info -->
