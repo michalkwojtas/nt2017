@@ -2169,37 +2169,37 @@ object {
   #masthead div,
   div.tag-cloud,
   div.site-info {
-    padding-left: 8em;
-    padding-right: 8em;
+    padding-left: 10em;
+    padding-right: 10em;
   }
 
   #top-menu li.search-menu.search-menu.default {
-    padding: 0 8.5em 0 0;
+    padding: 0 12.5em 0 0;
   }
 
   .page-header {
-    padding-left: 8em;
+    padding-left: 10em;
   }
 
   section {
-    padding-right: 8em;
+    padding-right: 10em;
   }
 
   .nav-links {
-    padding-left: 8em;
+    padding-left: 10em;
   }
 
   div.page-content {
-    padding-left: 8em;
+    padding-left: 10em;
   }
 
   #site-navigation div.menu-menu-1-container {
-    padding-left: 8em;
+    padding-left: 10em;
   }
 
   .entry-content,
   .entry-footer,
   .entry-header {
-   padding-left: 8em;
+   padding-left: 10em;
   }
 }
