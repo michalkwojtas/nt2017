@@ -2206,4 +2206,9 @@ object {
   .entry-header {
    padding-left: 10em;
   }
+
+  #main div.tags-list {
+    padding: 0 2em 2em 10em;
+  }
+
 }
