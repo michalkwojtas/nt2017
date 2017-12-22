@@ -2163,3 +2163,43 @@ object {
       font-size: 20em;
     }
 }
+
+@media screen and (min-width: 60em) {
+
+  #masthead div,
+  div.tag-cloud,
+  div.site-info {
+    padding-left: 8em;
+    padding-right: 8em;
+  }
+
+  #top-menu li.search-menu.search-menu.default {
+    padding: 0 8.5em 0 0;
+  }
+
+  .page-header {
+    padding-left: 8em;
+  }
+
+  section {
+    padding-right: 8em;
+  }
+
+  .nav-links {
+    padding-left: 8em;
+  }
+
+  div.page-content {
+    padding-left: 8em;
+  }
+
+  #site-navigation div.menu-menu-1-container {
+    padding-left: 8em;
+  }
+
+  .entry-content,
+  .entry-footer,
+  .entry-header {
+   padding-left: 8em;
+  }
+}
