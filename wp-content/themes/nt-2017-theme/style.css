@@ -2174,7 +2174,7 @@ object {
   }
 
   #top-menu li.search-menu.search-menu.default {
-    padding: 0 12.5em 0 0;
+    padding: 0 12em 0 0;
   }
 
   .page-header {
@@ -2195,6 +2195,10 @@ object {
 
   #site-navigation div.menu-menu-1-container {
     padding-left: 10em;
+  }
+
+  #top-menu li.search-menu.search-menu.default {
+    width: 34em;
   }
 
   .entry-content,
