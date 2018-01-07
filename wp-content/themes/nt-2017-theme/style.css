@@ -1866,16 +1866,24 @@ object {
 
     #site-navigation div.menu-menu-1-container ul#top-menu li.menu-item a {
       clear: none;
-      font-size: 1em;
+      font-size: 0.95em;
     }
 
     #top-menu li.search-menu.search-menu.default {
       display: inline-block;
       clear: none;
       float: right;
-      width: 23em;
+      width: 22em;
       margin: 0;
       padding: 0 5.5em 0 0;
+    }
+
+    input.searchinput {
+      width: 60%;
+    }
+
+    input.searchsubmit {
+      width: 37%;
     }
 
     #top-menu li.search-menu.search-menu.default form#searchform {
@@ -2164,7 +2172,7 @@ object {
     }
 }
 
-@media screen and (min-width: 86em) {
+@media screen and (min-width: 85em) {
 
   #masthead div,
   div.tag-cloud,
@@ -2174,7 +2182,7 @@ object {
   }
 
   #top-menu li.search-menu.search-menu.default {
-    padding: 0 12em 0 0;
+    padding: 0 10em 0 0;
   }
 
   .page-header {
@@ -2197,10 +2205,6 @@ object {
     padding-left: 10em;
   }
 
-  #top-menu li.search-menu.search-menu.default {
-    width: 34em;
-  }
-
   .entry-content,
   .entry-footer,
   .entry-header {
@@ -2211,4 +2215,83 @@ object {
     padding: 0 2em 2em 10em;
   }
 
+}
+
+@media screen and (min-width: 98em) {
+
+   #site-navigation div.menu-menu-1-container ul#top-menu li.menu-item a {
+      font-size: 1em;
+    }
+
+    #top-menu li.search-menu.search-menu.default {
+      width: 28em;
+    }
+
+    input.searchinput {
+      width: 70%;
+    }
+
+    input.searchsubmit {
+      width: 27%;
+    }
+}
+
+@media screen and (min-width: 113em) {
+
+   #site-navigation div.menu-menu-1-container ul#top-menu li.menu-item a {
+      font-size: 1.2em;
+    }
+
+    #top-menu li.search-menu.search-menu.default {
+      width: 32em;
+    }
+}
+
+@media screen and (min-width: 127.5em) {
+
+   #site-navigation div.menu-menu-1-container ul#top-menu li.menu-item a {
+      font-size: 1.4em;
+    }
+
+    #top-menu li.search-menu.search-menu.default {
+      width: 36em;
+      padding: 0 19em 0 0;
+    }
+
+    #masthead div,
+    div.tag-cloud,
+    div.site-info {
+      padding-left: 15em;
+      padding-right: 15em;
+    }
+
+    .page-header {
+      padding-left: 15em;
+    }
+
+    section {
+      padding-right: 15em;
+    }
+
+    .nav-links {
+      padding-left: 15em;
+    }
+
+    div.page-content {
+      padding-left: 15em;
+    }
+
+    #site-navigation div.menu-menu-1-container {
+      padding-left: 15em;
+    }
+
+    .entry-content,
+    .entry-footer,
+    .entry-header {
+     padding-left: 15em;
+    }
+
+    #main div.tags-list {
+      padding: 0 2em 2em 15em;
+    }
 }
