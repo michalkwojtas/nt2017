@@ -1002,6 +1002,11 @@ article.category-inne div.tactics-wrapper {
   font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
 }
 
+div.entry-content h2 {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  color:#000;
+}
+
 .clearfix:after {
     clear: both;
     content: ".";
