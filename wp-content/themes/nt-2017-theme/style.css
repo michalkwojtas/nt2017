@@ -944,6 +944,10 @@ article.category-zlote-mysli div.author {
   color: #0066b2;
 }
 
+article.category-inne div.tactics-wrapper {
+  display:none;
+}
+
 .post-1437 div.entry-content p,
 .post-201 div.entry-content p {
   font-size: 1.2em;
