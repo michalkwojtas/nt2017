@@ -985,6 +985,15 @@ div.entry-content p a  {
   color: #0066b2;
 }
 
+#equal-heights-main div.entry-content p a  {
+  font-weight: normal;
+  color: #434343;
+}
+
+#equal-heights-main div.entry-content p a.more-link {
+  color: #ffffff;
+}
+
 .post-1437 div.entry-content p a,
 .post-201 div.entry-content p a  {
   font-size: 1.2em;
