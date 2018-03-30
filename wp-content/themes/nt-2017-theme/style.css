@@ -1512,7 +1512,8 @@ div.team-wrapper.team2 a {
   border-color: #000;
 }
 
-div.entry-content h3.fbcomments {
+div.entry-content h3.fbcomments,
+div.entry-content h3.similar-posts {
   font-family: Georgia, Times, 'Times New Roman', serif;
   font-size: 1.5em;
   font-weight: bold;
