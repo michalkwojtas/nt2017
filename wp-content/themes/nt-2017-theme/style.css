@@ -944,7 +944,9 @@ article.category-zlote-mysli div.author {
   color: #0066b2;
 }
 
-article.category-inne div.tactics-wrapper {
+article.category-publicystyka div.tactics-wrapper,
+article.category-publicystyka h3.similar-posts,
+article.category-publicystyka ul.similar-posts {
   display:none;
 }
 
