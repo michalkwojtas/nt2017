@@ -1104,7 +1104,7 @@ div#page_slownik table.wprowadzenie tr:hover {
 # Lists
 --------------------------------------------------------------*/
 ul, ol {
-  margin: 0 0 1.5em 1em;
+  margin: 0 0 1.5em 0.2em;
 }
 
 ul {
@@ -1978,6 +1978,10 @@ object {
 
     #main nav {
       border-style: none;
+    }
+
+    ul, ol {
+      margin: 0 0 1.5em 1em;
     }
 
     div.entry-meta span.match-rating {
