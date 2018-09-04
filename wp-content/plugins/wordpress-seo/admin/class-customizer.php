@@ -1,5 +1,7 @@
 <?php
 /**
+ * WPSEO plugin file.
+ *
  * @package WPSEO\Admin\Customizer
  */
 
@@ -54,7 +56,6 @@ class WPSEO_Customizer {
 				'active_callback' => array( $this, 'breadcrumbs_active_callback' ),
 			)
 		);
-
 	}
 
 	/**

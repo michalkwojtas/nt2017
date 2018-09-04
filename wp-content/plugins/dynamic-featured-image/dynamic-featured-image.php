@@ -3,7 +3,7 @@
  * Plugin Name: Dynamic Featured Image
  * Plugin URI: http://wordpress.org/plugins/dynamic-featured-image/
  * Description: Dynamically adds multiple featured image or post thumbnail functionality to your posts, pages and custom post types.
- * Version: 3.6.1
+ * Version: 3.6.5
  * Author: Ankit Pokhrel
  * Author URI: https://ankitpokhrel.com
  * License: GPL2 or later
@@ -49,7 +49,7 @@ class Dynamic_Featured_Image {
      *
      * @since 3.0.0
      */
-    const VERSION = '3.6.1';
+    const VERSION = '3.6.5';
 
     /**
      * Text domain.
@@ -169,7 +169,7 @@ class Dynamic_Featured_Image {
      * @since 1.0.0
      * @access public
      *
-     * @see  wp_enque_style()
+     * @see  wp_enqueue_style()
      * @see  wp_register_script()
      * @see  wp_enqueue_script()
      *
@@ -241,7 +241,7 @@ class Dynamic_Featured_Image {
         $this->metabox_title = apply_filters( 'dfi_set_metabox_title', __( 'Featured Image', self::TEXT_DOMAIN ) );
 
         $featured_data  = get_post_meta( $post->ID, 'dfiFeatured', true );
-        $total_featured = count( $featured_data );
+        $total_featured = is_array( $featured_data ) ? count( $featured_data ) : 0;
 
         $default_filter    = array( 'attachment', 'revision', 'nav_menu_item' );
         $this->user_filter = apply_filters( 'dfi_post_type_user_filter', $this->user_filter );
@@ -297,8 +297,8 @@ class Dynamic_Featured_Image {
                     __( $this->metabox_title, self::TEXT_DOMAIN ) . ' ' . $this->get_number_translation( $i ),
                     array( $this, 'featured_meta_box' ),
                     $type,
-                    'side',
-                    'low',
+                    apply_filters( 'dfi_metabox_context', 'side' ),
+                    apply_filters( 'dfi_metabox_priority', 'low' ),
                     array( $featured, $i + 1 )
                 );
 
@@ -311,8 +311,8 @@ class Dynamic_Featured_Image {
                     __( $this->metabox_title, self::TEXT_DOMAIN ) . ' ' . __( 2, self::TEXT_DOMAIN ),
                     array( $this, 'featured_meta_box' ),
                     $type,
-                    'side',
-                    'low',
+                    apply_filters( 'dfi_metabox_context', 'side' ),
+                    apply_filters( 'dfi_metabox_priority', 'low' ),
                     array( null, null )
                 );
 
@@ -695,6 +695,7 @@ class Dynamic_Featured_Image {
             // and try to get the attachment id.
             $image_url = str_replace( $this->upload_url . '/', '', $image_url );
             $row       = $this->execute_query( $this->db->prepare( 'SELECT post_id FROM ' . $this->db->postmeta . ' WHERE meta_value = %s', $image_url ) );
+
             if ( ! is_null( $row ) ) {
                 $attachment_id = $row;
             }

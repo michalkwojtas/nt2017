@@ -3,8 +3,8 @@ Contributors: ankitpokhrel, cfoellmann
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=J9FVY3ESPPD58
 Tags: dynamic featured image, featured image, post thumbnail, dynamic post thumbnail, multiple featured image, multiple post thumbnail
 Requires at least: 3.8
-Tested up to: 4.8.1
-Stable tag: 3.6.1
+Tested up to: 4.9.2
+Stable tag: 3.6.5
 Requires PHP: 5.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -117,6 +117,12 @@ Please feel free to report any bug found at https://github.com/ankitpokhrel/Dyna
 3. Add new featured image box.
 
 == Changelog ==
+= 3.6.5 =
+* Add Thai translations (#63, Thanks @isudnop)
+* Fix warning when counting empty string in PHP 7.2 (#66, Thanks @zsmartin)
+* Show only images in media selector (#67, Thanks @zsmartin)
+* Add filters for metabox context and priority (#68, Thanks @zsmartin)
+
 = 3.6.1 =
 * Remove short array syntax to support php <= 5.4.
 
@@ -222,6 +228,9 @@ Please feel free to report any bug found at https://github.com/ankitpokhrel/Dyna
 * Fixed some minor issues.
 
 == Upgrade Notice ==
+= 3.6.5 =
+* Some enhancements, feature and bug fixes.
+
 = 3.6.1 =
 * Remove short array syntax to support php <= 5.4.
 
