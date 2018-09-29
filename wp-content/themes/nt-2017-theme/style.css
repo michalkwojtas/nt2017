@@ -1712,6 +1712,10 @@ div.page-content div.widget {
   border-bottom: none;
 }
 
+li.cat-post-item {
+  margin-bottom: 0.5em;
+}
+
 a.cat-post-footer-link {
   margin-right: -1em;
   background-color: #000;
