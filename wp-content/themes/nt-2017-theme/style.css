@@ -1716,7 +1716,7 @@ li.cat-post-item {
   margin-bottom: 0.5em;
 }
 
-cat-post-title {
+a.cat-post-title {
   display:inline-block;
 }
 
