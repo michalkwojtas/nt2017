@@ -1717,6 +1717,7 @@ li.cat-post-item {
 }
 
 a.cat-post-footer-link {
+  display:inline-block;
   margin-right: -1em;
   background-color: #000;
   color: #fff;
