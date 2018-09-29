@@ -682,13 +682,15 @@ hr {
   text-transform: uppercase;
 }
 
-a.more-link {
+a.more-link,
+a.cat-post-footer-link {
   float: right;
   margin-top: 1.5em;
   margin-right: -1em;
 }
 
 a.more-link,
+a.cat-post-footer-link,
 div.nav-next a,
 div.nav-previous a {
   padding: 0.5em;
@@ -711,7 +713,8 @@ div.nav-previous a {
   justify-content: flex-start;
 }
 
-a.more-link {
+a.more-link,
+a.cat-post-footer-link {
   padding: 0.5em 1em;
 }
 
@@ -1277,6 +1280,8 @@ a:active {
 
 a.more-link:hover,
 a.more-link:focus,
+a.cat-post-footer-link:hover,
+a.cat-post-footer-link,:focus
 div.nav-next a:hover,
 div.nav-next a:focus {
   margin-right: 0em;
@@ -1707,6 +1712,17 @@ div.page-content div.widget {
   border-bottom: none;
 }
 
+a.cat-post-footer-link {
+  margin-right: -1em;
+  background-color: #000;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+section.cat-post-widget {
+  padding-bottom: 6em;
+}
+
 /*--------------------------------------------------------------
 # Infinite scroll
 --------------------------------------------------------------*/
@@ -1949,6 +1965,7 @@ object {
     }
 
     a.more-link,
+    a.cat-post-footer-link,
     div.nav-next a,
     div.nav-previous a {
       margin-right: 0.2em;
