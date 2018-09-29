@@ -1716,8 +1716,11 @@ li.cat-post-item {
   margin-bottom: 0.5em;
 }
 
-a.cat-post-footer-link {
+cat-post-title {
   display:inline-block;
+}
+
+a.cat-post-footer-link {
   margin-right: -1em;
   background-color: #000;
   color: #fff;
